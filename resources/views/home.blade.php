@@ -1,6 +1,6 @@
 @extends('layouts.gts')
 
-@section('title', 'SALUT LES AMIS')
+@section('title', __('ACCUEIL'))
 
 @section('content')
 

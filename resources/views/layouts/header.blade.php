@@ -28,112 +28,35 @@
                         <a href="index.html"><img src="/storage/images/logo-4.png" alt=""></a>
                     </div>
                     <ul class="nav navbar-nav navbar">
-                        <li class="sub-menu-down"><a href="javascript:void(0);"><span>Home</span></a>
-                            <ul class="sub-menu">
-                                <li><a href="index.html">Home 1</a></li>
-                                <li><a href="index-2.html">Home 2</a></li>
-                                <li><a href="index-3.html">Home 3</a></li>
-                                <li><a href="index-4.html">Home 4 <span class="badge">New</span></a></li>
-                                <li><a href="index-5.html">Home 5 <span class="badge">New</span></a></li>
-                            </ul>
+                        <li class="sub-menu {{ request()->routeIs('home') ? 'active' : '' }}">
+                            <a href="{{ route('home') }}">
+                                <span>Home</span>
+                            </a>
                         </li>
-                        <li class="sub-menu-down"><a href="javascript:void(0);"><span>Pages</span></a>
-                            <ul class="sub-menu">
-                                <li><a href="javascript:void(0);">About Us <i class="fa fa-angle-right"></i></a>
-                                    <ul class="sub-menu">
-                                        <li><a href="about-us-1.html">About Us 1</a></li>
-                                        <li><a href="about-us-2.html">About Us 2</a></li>
-                                        <li><a href="about-us-3.html">About Us 3</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="javascript:void(0);">Faq <i class="fa fa-angle-right"></i></a>
-                                    <ul class="sub-menu">
-                                        <li><a href="faq-1.html">Faq 1</a></li>
-                                        <li><a href="faq-2.html">Faq 2</a></li>
-                                        <li><a href="faq-3.html">Faq 3</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="javascript:void(0);">Pricing Table <i class="fa fa-angle-right"></i></a>
-                                    <ul class="sub-menu">
-                                        <li><a href="pricing-table-1.html">Pricing Table 1</a></li>
-                                        <li><a href="pricing-table-2.html">Pricing Table 2</a></li>
-                                        <li><a href="pricing-table-3.html">Pricing Table 3</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="javascript:void(0);">Team <i class="fa fa-angle-right"></i></a>
-                                    <ul class="sub-menu">
-                                        <li><a href="team-1.html">Team 1</a></li>
-                                        <li><a href="team-2.html">Team 2</a></li>
-                                        <li><a href="team-3.html">Team 3</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="javascript:void(0);">Team Details <i class="fa fa-angle-right"></i></a>
-                                    <ul class="sub-menu">
-                                        <li><a href="team-detail-1.html">Team Details 1</a></li>
-                                        <li><a href="team-detail-2.html">Team Details 2</a></li>
-                                        <li><a href="team-detail-3.html">Team Details 3</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="company-history.html">Company History </a></li>
-                                <li><a href="coming-soon.html">Coming Soon</a></li>
-                                <li><a href="error-404.html">Error 404</a></li>
-                                <li><a href="sitedown.html">Site Down</a></li>
-                            </ul>
+                        <li class="sub-menu {{ request()->routeIs('about') ? 'active' : '' }}">
+                            <a href="{{ route('about') }}">
+                                <span>about</span>
+                            </a>
                         </li>
-                        <li class="sub-menu-down"><a href="javascript:void(0);"><span>Services</span></a>
-                            <ul class="sub-menu">
-                                <li><a href="javascript:void(0);">Services <i class="fa fa-angle-right"></i></a>
-                                    <ul class="sub-menu">
-                                        <li><a href="services-1.html">Services 1</a></li>
-                                        <li><a href="services-2.html">Services 2</a></li>
-                                        <li><a href="services-3.html">Services 3</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="javascript:void(0);">Services Details <i class="fa fa-angle-right"></i></a>
-                                    <ul class="sub-menu">
-                                        <li><a href="services-details-1.html">Services Details 1</a></li>
-                                        <li><a href="services-details-2.html">Services Details 2</a></li>
-                                        <li><a href="services-details-3.html">Services Details 3</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
+                        <li class="sub-menu {{ request()->routeIs('blog') ? 'active' : '' }}">
+                            <a href="{{ route('blog') }}">
+                                <span>blog</span>
+                            </a>
                         </li>
-                        <li class="sub-menu-down"><a href="javascript:void(0);"><span>Post Layout</span></a>
-                            <ul class="sub-menu">
-                                <li><a href="post-standard.html">Post Standard</a></li>
-                                <li><a href="post-left-sidebar.html">Post Left Sidebar</a></li>
-                                <li><a href="post-header-image.html">Post Header Image</a></li>
-                                <li><a href="post-slide-show.html">Post Slide Show</a></li>
-                                <li><a href="post-side-image.html">Post Side Image</a></li>
-                                <li><a href="post-gallery.html">Post Gallery</a></li>
-                                <li><a href="post-gallery-alternative.html">Post Gallery Alt</a></li>
-                                <li><a href="post-link.html">Post Link</a></li>
-                                <li><a href="post-audio.html">Post Audio</a></li>
-                                <li><a href="post-video.html">Post Video</a></li>
-                                <li><a href="post-pagination.html">Post With Pagination</a></li>
-                                <li><a href="post-open-gutenberg.html">Post Open Gutenberg</a></li>
-                            </ul>
+                        <li class="sub-menu {{ request()->routeIs('services') ? 'active' : '' }}">
+                            <a href="{{ route('services') }}">
+                                <span>services</span>
+                            </a>
                         </li>
-                        <li class="sub-menu-down"><a href="javascript:void(0);"><span>Blog</span></a>
-                            <ul class="sub-menu">
-                                <li><a href="blog-grid-2.html">Blog Grid 2</a></li>
-                                <li><a href="blog-large-left-sidebar.html">Large Left Sidebar</a></li>
-                                <li><a href="blog-large-right-sidebar.html">Large Right Sidebar</a></li>
-                                <li><a href="javascript:void(0);">Blog Details <i class="fa fa-angle-right"></i></a>
-                                    <ul class="sub-menu">
-                                        <li><a href="blog-details-1.html">Blog Details 1</a></li>
-                                        <li><a href="blog-details-2.html">Blog Details 2</a></li>
-                                        <li><a href="blog-details-3.html">Blog Details 3</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
+                        <li class="sub-menu {{ request()->routeIs('projets') ? 'active' : '' }}">
+                            <a href="{{ route('projets') }}">
+                                <span>projets</span>
+                            </a>
                         </li>
-                        <li class="sub-menu-down"><a href="javascript:void(0);"><span>Contact Us</span></a>
-                            <ul class="sub-menu">
-                                <li><a href="contact-us-1.html">Contact Us 1</a></li>
-                                <li><a href="contact-us-2.html">Contact Us 2</a></li>
-                                <li><a href="contact-us-3.html">Contact Us 3</a></li>
-                            </ul>
+                        <li class="sub-menu {{ request()->routeIs('contact') ? 'active' : '' }}">
+                            <a href="{{ route('contact') }}">
+                                <span>contact</span>
+                            </a>
                         </li>
 
                     </ul>
