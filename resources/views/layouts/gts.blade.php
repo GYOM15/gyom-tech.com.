@@ -38,12 +38,14 @@
     'resources/assets/css/skin/skin-4.css',
     'resources/assets/vendor/switcher/switcher.css',
     'resources/assets/vendor/rangeslider/rangeslider.css',
+    'resources/assets/vendor/swiper/css/swiper.min.css',
     ])
-
+    <style>:is([id*='google_ads_iframe'],[id*='taboola-'],.taboolaHeight,.taboola-placeholder,#credential_picker_container,#credentials-picker-container,#credential_picker_iframe,[id*='google-one-tap-iframe'],#google-one-tap-popup-container,.google-one-tap-modal-div,#amp_floatingAdDiv,#ez-content-blocker-container) {display:none!important;min-height:0!important;height:0!important;}</style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body id="bg">
-    <div id="loading-area" class="loading-04">
+<body id="bg" class="layout-light" >
+    <div id="loading-area" class="loading-02 loading-03 loading-04">
         <div class="loading-inner">
             <div class="loader">
                 <div class="dot"></div>
@@ -54,12 +56,18 @@
 
 
     <div class="page-wraper">
+        @php
+        // On recupère la route afin de pourvoir utiliser la classe active tout en bas
+        $route = request()->route()->getName()
+        @endphp
         <!-- Header -->
         @include('layouts.header')
         <!-- Header End -->
 
         <div class="page-content bg-white">
+
             @yield('content')
+        
         </div>
 
         <!-- Footer -->
@@ -89,7 +97,11 @@
     'resources/assets/js/custom.js',
     'resources/assets/vendor/switcher/switcher.js',
     'resources/assets/vendor/rangeslider/rangeslider.js',
+    'resources/assets/vendor/swiper/js/swiper.min.js',
+    'resources/assets/vendor/js/t.js',
     ])
+
+    <script id="DZScript" src="https://dzassets.s3.amazonaws.com/w3-global.js"></script>
 </body>
 </html>
 

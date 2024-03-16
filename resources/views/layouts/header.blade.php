@@ -1,12 +1,13 @@
-<header class="site-header header header-transparent text-black mo-left">
+
+<header class="site-header header  @if($route === 'home' || $route === 'blog' ) header-transparent @endif text-black mo-left">
     <!-- Main Header -->
-    <div class="sticky-header main-bar-wraper navbar-expand-lg">
+    <div class="sticky-header main-bar-wraper navbar-expand-lg ">
         <div class="main-bar clearfix ">
             <div class="container clearfix">
 
                 <!-- Website Logo -->
                 <div class="logo-header logo-dark ">
-                    <a href="index.html"><img src="/storage/images/logo-4.png" alt=""></a>
+                    <a href="index.html"><img src="/storage/images/logo.png" alt=""></a>
                 </div>
 
                 <!-- Nav Toggle Button -->
