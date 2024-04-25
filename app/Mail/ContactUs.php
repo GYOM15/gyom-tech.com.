@@ -13,7 +13,7 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 class ContactUs extends Mailable
 {
     use Queueable, SerializesModels;
-    public $data;
+    private $data;
 
     /**
      * Create a new message instance.
@@ -39,11 +39,13 @@ class ContactUs extends Mailable
      * Get the message content definition.
      */
     public function content(): Content
-    {
-        return new Content(
-            markdown: 'emails.contact',
-        );
-    }
+{
+    return (new Content())
+        ->markdown('emails.contact')
+        ->with($this->data);
+}
+
+    
 
     /**
      * Get the attachments for the message.
