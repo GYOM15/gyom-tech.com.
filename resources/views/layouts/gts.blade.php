@@ -24,6 +24,7 @@
 
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" href="/storage/images/favicon.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- Stylesheet -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
@@ -35,16 +36,19 @@
     'resources/assets/vendor/animate/animate.css',
     'resources/assets/vendor/lightgallery/css/lightgallery.min.css',
     'resources/assets/css/style.css',
+    'resources/assets/css/video/videoCss/play-bouton.css',
+    'resources/assets/css/video/videoJs/popup.js',
     'resources/assets/css/skin/skin-4.css',
     'resources/assets/vendor/switcher/switcher.css',
     'resources/assets/vendor/rangeslider/rangeslider.css',
     'resources/assets/vendor/swiper/css/swiper.min.css',
     ])
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <style>:is([id*='google_ads_iframe'],[id*='taboola-'],.taboolaHeight,.taboola-placeholder,#credential_picker_container,#credentials-picker-container,#credential_picker_iframe,[id*='google-one-tap-iframe'],#google-one-tap-popup-container,.google-one-tap-modal-div,#amp_floatingAdDiv,#ez-content-blocker-container) {display:none!important;min-height:0!important;height:0!important;}</style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body id="bg" class="layout-light" >
+<body id="bg" class="layout-light">
     <div id="loading-area" class="loading-02 loading-03 loading-04">
         <div class="loading-inner">
             <div class="loader">

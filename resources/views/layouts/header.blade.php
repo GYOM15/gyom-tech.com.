@@ -1,10 +1,9 @@
 
-<header class="site-header header  @if($route === 'home' || $route === 'blog' ) header-transparent @endif text-black mo-left">
+<header class="site-header header  @if($route === 'home') header-transparent @elseif($route === 'about') shadow @endif text-black mo-left" data-aos="fade-down" data-aos-duration="1000">
     <!-- Main Header -->
     <div class="sticky-header main-bar-wraper navbar-expand-lg ">
         <div class="main-bar clearfix ">
             <div class="container clearfix">
-
                 <!-- Website Logo -->
                 <div class="logo-header logo-dark ">
                     <a href="index.html"><img src="/storage/images/logo.png" alt=""></a>
@@ -20,7 +19,7 @@
                 <!-- Extra Nav -->
                 <div class="extra-nav">
                     <div class="extra-cell">
-                        <a href="contact-us-2.html" class="btn btn-primary">Get A Quote <i class="fa fa-angle-right m-l10"></i></a>
+                        <a href="{{route('contact')}} " class="btn btn-primary">Nous Contacter</a>
                     </div>
                 </div>
 
@@ -31,12 +30,12 @@
                     <ul class="nav navbar-nav navbar">
                         <li class="sub-menu {{ request()->routeIs('home') ? 'active' : '' }}">
                             <a href="{{ route('home') }}">
-                                <span>Home</span>
+                                <span>Accueil</span>
                             </a>
                         </li>
                         <li class="sub-menu {{ request()->routeIs('about') ? 'active' : '' }}">
                             <a href="{{ route('about') }}">
-                                <span>about</span>
+                                <span>À propos</span>
                             </a>
                         </li>
                         <li class="sub-menu {{ request()->routeIs('blog') ? 'active' : '' }}">

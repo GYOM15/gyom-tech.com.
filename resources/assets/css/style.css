@@ -104,6 +104,22 @@ hr:not([size]) {
     height: 1px;
 }
 
+.social-network{
+    display: flex;
+}
+.social-network i{
+    font-size: 24px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.navbar-fixed {
+    position: fixed;
+    width: 100%;
+    z-index: 1000; 
+}
+
+
 h1,
 .h1,
 h2,
@@ -946,6 +962,51 @@ progress {
         width: 16.66667%;
     }
 }
+
+/* Team section */
+
+
+  .all_team{
+      align-items: center;
+      padding-bottom:80px ;
+  }
+
+  .team .carte-team .team-image{
+      width:200px; 
+      margin: 8px auto;
+      height: 200px;
+      overflow: hidden; 
+  }
+  .team .carte-team .team-image img{
+      object-fit: cover;
+      object-position: center;
+      transition: 0.3s;
+  }
+  .all_team .team .carte-team .team-image:hover img{
+      transform: scale(1.1);
+  }
+  
+  
+  .team .carte-team .t_description{
+      align-items: center;
+      text-align: center;
+      padding: 10px 10px 15px;
+      box-shadow: 0 0 5px rgba(35, 74, 218, 0.9) ;
+  }
+
+  .team .carte-team .t_description i:hover{
+      color: rgba(245, 95, 141, 0.9);
+      cursor: pointer;
+  }
+
+  .pipe{
+    color: rgba(245, 95, 141, 0.9);
+  }
+
+
+
+
+/** End Team*/
 
 .col-auto {
     flex: 0 0 auto;
