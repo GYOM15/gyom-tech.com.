@@ -8,12 +8,12 @@
 		<div class="dlab-bnr-inr style-1 bg-primary" style="background-image: url(/storage/images/banner/bnr2.png), var(--gradient-sec);  background-size: cover, 200%; ">
 			<div class="container">
 				<div class="dlab-bnr-inr-entry">
-					<h1>Blog Large</h1>
+					<h1>Notre Blog</h1>
 					<!-- Breadcrumb Row -->
 					<nav aria-label="breadcrumb" class="breadcrumb-row style-1">
 						<ul class="breadcrumb">
 							<li class="breadcrumb-item"><a href="index.html">Home</a></li>
-							<li class="breadcrumb-item active" aria-current="page">Blog Large</li>
+							<li class="breadcrumb-item active" aria-current="page">Angular</li>
 						</ul>
 					</nav>
 					<!-- Breadcrumb Row End -->
@@ -82,6 +82,7 @@
 											</div>
                                         </div>
                                     </div>
+									
                                     <div class="widget-post clearfix">
                                         <div class="dlab-media"> 
 											<a href="blog-details-3.html"><img src="/storage/images/blog/recent-blog/pic3.jpg" alt=""></a>
@@ -138,28 +139,10 @@
                         </aside>
 					</div>
 					<div class="col-xl-8 col-lg-8 m-b30">
-						<div class="dlab-blog m-b50 no-image">
-							<div class="dlab-info">
-								<div class="dlab-meta">
-									<ul>
-										<li class="post-date"><i class="flaticon-clock m-r10"></i>7 March, 2020</li>
-										<li class="post-author"><i class="flaticon-user m-r10"></i>By <a href="javascript:void(0);">Johne Doe</a></li>
-										<li class="post-comment"><a href="javascript:void(0);"><i class="flaticon-speech-bubble"></i><span>15</span></a></li>
-										
-									</ul>
-								</div>
-								<h4 class="dlab-title">
-									<a href="blog-details-3.html">Quisque sem tortor, convallis in arcu eu, accumsan finibus massa donec et sapien risus.</a>
-								</h4>
-								<p class="m-b20">Phasellus vestibulum velit in lacinia ultrices. Aenean vel euismod risus, ac congue lectus. In hac habitasse platea dictumst. Vivamus et felis imperdiet, commodo augue in, condimentum tellus. Quisque a velit a eros malesuada ullamcorper. </p>
-								<a href="blog-details-3.html" class="btn btn-lg shadow gradient btn-primary">Read More</a>
-							</div>
-						</div>
 						<div class="dlab-blog m-b50">
 							<div class="dlab-media rounded dlab-img-effect zoom post-video">
 								<a href="blog-details-3.html">
-									<img src="/storage/images/blog/default/thum2.jpg" alt="">
-									<a href="https://www.youtube.com/watch?v=pyRjzvdOSHk" class="popup-youtube post-video-icon fa fa-play"></a>
+									<img src="/storage/images/blog/default/thum1.jpg" alt="">
 									<div class=""></div>
 								</a>
 							</div>
@@ -172,19 +155,18 @@
 									</ul>
 								</div>
 								<h4 class="dlab-title">
-									<a href="blog-details-3.html">Fusce sem ligula, imperdiet sed nisi sit amet, euismod posuere dolor.</a>
+									<a href="blog-details-3.html">Introduction au Test-Driven Development en Angular.</a>
 								</h4>
-								<p class="m-b20">Phasellus vestibulum velit in lacinia ultrices. Aenean vel euismod risus, ac congue lectus. In hac habitasse platea dictumst. Vivamus et felis imperdiet, commodo augue in, condimentum tellus. Quisque a velit a eros malesuada ullamcorper. </p>
-								<a href="blog-details-3.html" class="btn btn-lg shadow gradient btn-primary">Read More</a>
+								<p class="m-b20">Hello les passionnés de développement Angular ! Aujourd'hui, nous plongerons dans l'univers du Test-Driven Development (TDD) et découvrirons comment cette approche peut révolutionner votre manière de créer des applications web. </p>
+								<a href="{{route('introduction-test-driven-development-angular')}} " class="btn btn-lg shadow gradient btn-primary">Read More</a>
 							</div>
 						</div>
 						<div class="dlab-blog m-b50">
-							<div class="dlab-media rounded">
-								<div class="post-carousel owl-carousel owl-theme owl owl-btn-center-lr owl-btn-2">
-									<div class="item"><img class="rounded-sm" src="/storage/images/blog/default/thum1.jpg" alt=""></div>
-									<div class="item"><img class="rounded-sm" src="/storage/images/blog/default/thum2.jpg" alt=""></div>
-									<div class="item"><img class="rounded-sm" src="/storage/images/blog/default/thum3.jpg" alt=""></div>
-								</div>
+							<div class="dlab-media rounded dlab-img-effect zoom post-video">
+								<a href="blog-details-3.html">
+									<img src="/storage/images/blog/default/thum2.avif" alt="">
+									<div class=""></div>
+								</a>
 							</div>
 							<div class="dlab-info">
 								<div class="dlab-meta">
@@ -195,9 +177,31 @@
 									</ul>
 								</div>
 								<h4 class="dlab-title">
-									<a href="blog-details-3.html">Donec feugiat mollis nisi in dignissim. Morbi sollicitudin quis lectus vel euismod.</a>
+									<a href="blog-details-3.html">Comment mettre en place une stratégie de chargement d'une page web Angular en se basant sur le débit de la connexion internet de l'utilisateur ?</a>
 								</h4>
-								<p class="m-b20">Phasellus vestibulum velit in lacinia ultrices. Aenean vel euismod risus, ac congue lectus. In hac habitasse platea dictumst. Vivamus et felis imperdiet, commodo augue in, condimentum tellus. Quisque a velit a eros malesuada ullamcorper. </p>
+								<p class="m-b20">Découvrez comment offrir une expérience de navigation fluide et optimisée à vos utilisateurs en mettant en place une stratégie de chargement de page web Angular qui s'adapte intelligemment au débit de leur connexion internet. </p>
+								<a href="blog-details-3.html" class="btn btn-lg shadow gradient btn-primary">Read More</a>
+							</div>
+						</div>
+						<div class="dlab-blog m-b50">
+							<div class="dlab-media rounded dlab-img-effect zoom post-video">
+								<a href="blog-details-3.html">
+									<img src="/storage/images/blog/default/thum3.avif" alt="">
+									<div class=""></div>
+								</a>
+							</div>
+							<div class="dlab-info">
+								<div class="dlab-meta">
+									<ul>
+										<li class="post-date"><i class="flaticon-clock m-r10"></i>7 March, 2020</li>
+										<li class="post-author"><i class="flaticon-user m-r10"></i>By <a href="javascript:void(0);">Johne Doe</a></li>
+										<li class="post-comment"><a href="javascript:void(0);"><i class="flaticon-speech-bubble"></i><span>15</span></a></li>
+									</ul>
+								</div>
+								<h4 class="dlab-title">
+									<a href="blog-details-3.html">Comment créer facilement un composant input réutilisable piloté par l'interface ControlValueAccessor ?</a>
+								</h4>
+								<p class="m-b20">Explorez une approche élégante pour créer des composants d'entrée réutilisables dans vos applications Angular en utilisant l'interface ControlValueAccessor. Découvrez comment simplifier la gestion des valeurs et offrir une expérience utilisateur cohérente. </p>
 								<a href="blog-details-3.html" class="btn btn-lg shadow gradient btn-primary">Read More</a>
 							</div>
 						</div>

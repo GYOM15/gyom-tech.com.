@@ -235,7 +235,7 @@
                                         <a class="nav-link" href="javascript:void(0);" data-bs-toggle="tab" data-bs-target="#service8"><img src="/storage/images/icon/icon8.svg" alt=""></a>
                                     </li>
                                     <li class="nav-item" style="--sr-item:5">
-                                        <a class="nav-link" href="javascript:void(0);" data-bs-toggle="tab" data-bs-target="#service1"><img src="/storage/images/icon/icon1.svg" alt=""></a>
+                                        <a class="nav-link active" href="javascript:void(0);" data-bs-toggle="tab" data-bs-target="#service1"><img src="/storage/images/icon/icon1.svg" alt=""></a>
                                     </li>
                                     <li class="nav-item" style="--sr-item:6">
                                         <a class="nav-link" href="javascript:void(0);" data-bs-toggle="tab" data-bs-target="#service2"><img src="/storage/images/icon/icon2.svg" alt=""></a>
@@ -548,12 +548,12 @@
             <!-- Blog -->
             <section class="content-inner" style="background-image: url(/storage/images/background/bg19.png); background-size: 100%; background-position: center; background-repeat: no-repeat;">
                 <div class="container">
-                    <div class="section-head style-4 text-center">
+                    <div class="section-head style-4 text-center" data-aos="fade-up" data-aos-duration="1000">
                         <h6 class="sub-title">Nouvelles</h6>
                         <h2 class="title">Actualités</h2>
                     </div>
                     <div class="row p-5" style="text-align: center">
-                        <div class="col col-md-6 col-sm-12 wow " data-aos="fade-up" data-aos-duration="1000">
+                        <div class="col col-md-6 col-sm-12 wow " data-aos="fade-right" data-aos-duration="10000">
                             <div class="dlab-blog style-3 m-b30">
                                 <div class="dlab-media">
                                     <a href="https://www.amazon.com/Mastering-Angular-Test-Driven-Development-step-ebook/dp/B0CZLJSQ1S/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr="><img src="/storage/images/blog/book.jpeg" alt=""></a>
@@ -562,7 +562,7 @@
                             </div>
                         </div>
 
-                        <div class="col col-md-6 col-sm-12 wow " data-aos="fade-up" data-aos-duration="1000">
+                        <div class="col col-md-6 col-sm-12 wow " data-aos="fade-left" data-aos-duration="15000">
                             <div class="dlab-blog style-3 m-b30">
                                 <div class="dlab-info p-5">
                                     <div class="dlab-meta">

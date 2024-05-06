@@ -11,7 +11,7 @@
                     <div class="row align-items-center">
                         <div class="col-xl-4 col-md-5 wow fadeIn" data-aos="zoom-in" data-aos-duration="1500">
                             <div class="logo mb-2">
-                                <img src="/storage/images/logo.png" alt="footer-logo">
+                                <img src="/storage/images/logo1.png" alt="footer-logo">
                             </div>
                             <p>Notre mission, élargir votre expérience d'automatisation.</p>
                         </div>
@@ -71,7 +71,7 @@
                     <div class="{{ $colClass }} col-lg-4 col-sm-6 wow fadeIn" data-aos="fade-right" data-aos-duration="1000" style="visibility: visible; animation-duration: 2s; animation-delay: 0.2s; animation-name: fadeIn;">
                         <div class="widget widget_about">
 							<div class="footer-logo">
-								<a href="index.html"><img src="/storage/images/logo.png" alt=""></a> 
+								<a href="index.html"><img src="/storage/images/logo1.png" alt=""></a> 
 							</div>
 						</div>
                     </div>    
@@ -129,7 +129,7 @@
 
         <div class="footer-bottom">
             <div class="col text-center">
-                <span class="copyright-text">Copyright © 2024 <a href="https://dexignzone.com/" data-aos="fade-up" data-aos-duration="1500">GTS</a>. Tous droits réservés.</span>
+                <span class="copyright-text">Copyright © 2024 <a href="{{route('home')}} " data-aos="fade-up" data-aos-duration="1500">GTS</a>. Tous droits réservés.</span>
             </div>
         </div>
     </div>

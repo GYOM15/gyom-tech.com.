@@ -2,13 +2,12 @@
 
 namespace App\Mail;
 
+use Illuminate\Mail\Address;
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
-use Illuminate\Mail\Mailables\Address;
+
 use Illuminate\Mail\Mailables\Content;
 use Illuminate\Queue\SerializesModels;
-use Illuminate\Mail\Mailables\Envelope;
-use Illuminate\Contracts\Queue\ShouldQueue;
 
 class ContactUs extends Mailable
 {
@@ -20,37 +19,31 @@ class ContactUs extends Mailable
      */
     public function __construct($data)
     {
-        $this->data= $data;
+        $this->data = $data;
     }
 
     /**
-     * Get the message envelope.
+     * Build the message.
      */
-    public function envelope(): Envelope
+    public function build()
     {
-        return new Envelope(
-            subject: 'Contact Us',
-            from : new Address('your@gmail.com', 'Welcome'),
-            replyTo: $this ->data['email'],
-        );
+        return $this->subject('Contact Us')
+                    ->from('your@gmail.com', 'Welcome')
+                    ->replyTo($this->data['email']);
     }
 
     /**
      * Get the message content definition.
      */
     public function content(): Content
-{
-    return (new Content())
-        ->markdown('emails.contact')
-        ->with($this->data);
-}
-
-    
+    {
+        return (new Content())->with(['data' => $this->data])->markdown('emails.contact');
+    }
 
     /**
      * Get the attachments for the message.
      *
-     * @return array<int, \Illuminate\Mail\Mailables\Attachment>
+     * @return array<int, \Illuminate\Mail\Attachment>
      */
     public function attachments(): array
     {

@@ -10701,6 +10701,14 @@ h6,
     color: #070120;
 }
 
+.text-white .sub-menu a{
+    color: white !important;
+}
+
+.text-white .sub-menu .text-black a{
+    color: black !important;
+}
+
 ul {
     padding: 0;
     margin: 0;

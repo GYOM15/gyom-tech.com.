@@ -25,7 +25,9 @@ Route::get('/about', function () {
 Route::get('/blog', function () {
     return view('blog');
 })->name('blog');
-
+Route::get('/blog-angular-1', function () {
+    return view('blog.introduction-test-driven-development-angular');
+})->name('introduction-test-driven-development-angular');
 
 Route::get('/contact', function () {
     return view('contact');
@@ -42,4 +44,8 @@ Route::get('/projets', function () {
 Route::get('/services', function () {
     return view('services');
 })->name('services');
+
+Route::get('/services-details', function () {
+    return view('services-details.services-details');
+})->name('services-details');
 
