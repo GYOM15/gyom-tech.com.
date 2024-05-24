@@ -57,7 +57,7 @@
                                         </linearGradient>
                                     </defs>
                                 </svg>
-                                <img src="/storage/images/main-slider/slider4/hero.png" alt="">
+                                <img src="storage/images/main-slider/slider4/hero.png" alt="">
 
                                 <ul>
                                     <li><img src="/storage/images/main-slider/slider4/pic3.png" class="wow zoomIn" data-wow-delay="2.2s" alt=""></li>
