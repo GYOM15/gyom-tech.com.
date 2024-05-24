@@ -24,7 +24,7 @@
 
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" href="/storage/images/favicon.PNG">
-    
+
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- Stylesheet -->
@@ -75,7 +75,7 @@
         <div class="page-content bg-white">
 
             @yield('content')
-        
+
         </div>
 
         <!-- Footer -->

@@ -4,6 +4,8 @@
 
 @section('content')
 
+<script async src="https://www.google.com/recaptcha/api.js"></script>
+
 	<!-- Banner  -->
 		<div class="dlab-bnr-inr overlay-gradient-dark text-center" style="background-image: url(/storage/images/banner/bnr1.jpg);" data-aos="zoom-in" data-aos-duration="1000">
 			<div class="container">
@@ -21,7 +23,7 @@
 			</div>
 		</div>
 		<!-- Banner End -->
-		
+
 		<!-- Get A Quote -->
 		<div class="content-inner-2" style="background-image: url(/storage/images/background/bg2.png); background-repeat: no-repeat; background-size:100%;">
 			<div class="container">
@@ -37,7 +39,12 @@
 							{{ session('success') }}
 						</div>
 						@endif
-						
+						@if(session('error'))
+						<div class= "alert alert-danger">
+							{{ session('error') }}
+						</div>
+						@endif
+
 						<form class="form-group" id="contact-form" method="post" action="{{route('contact.send')}} ">
 							@csrf
 							<div class="row gy-4 mb-4">
@@ -49,9 +56,11 @@
 								@include('layouts.input', ['type' => 'email', 'class' => 'col-xl-6','placeholder' => 'Email', 'name' => 'email'])
 							</div>
 							@include('layouts.input', ['type' => 'textarea', 'class' => 'col mb-5','placeholder' => 'Votre message', 'name' => 'message'])
-							
+
 							<!-- Place pour le captcha -->
-							
+                            <!-- Google Recaptcha Widget-->
+                            <div class="g-recaptcha mt-3" data-sitekey="6LcY6uYpAAAAAGycaMQdDf4d7QBMcjeQuR47QlkR">salut: {{ config('services.recaptcha.key') }}</div>
+
 							<div class="col-sm-12">
 								<button name="submit" type="submit" class="btn btn-primary gradient border-0 rounded-xl">Nous contacter</button>
 							</div>
@@ -66,10 +75,10 @@
 				<div class="row">
 					<div class="col-lg-4 col-md-4">
 						<div class="icon-bx-wraper style-9 m-md-b60 center">
-							<div class="icon-bx-sm radius gradient"> 
+							<div class="icon-bx-sm radius gradient">
 								<a href="javascript:void(0);" class="icon-cell text-white">
 									<i class="las la-phone-volume"></i>
-								</a> 
+								</a>
 							</div>
 							<div class="icon-content">
 								<h4 class="dlab-title">Téléphone</h4>
@@ -80,10 +89,10 @@
 					</div>
 					<div class="col-lg-4 col-md-4">
 						<div class="icon-bx-wraper style-9 m-md-b60 center">
-							<div class="icon-bx-sm radius gradient"> 
+							<div class="icon-bx-sm radius gradient">
 								<a href="javascript:void(0);" class="icon-cell  text-white">
 									<i class="las la-map-marker"></i>
-								</a> 
+								</a>
 							</div>
 							<div class="icon-content">
 								<h4 class="dlab-title">Localisation</h4>
@@ -93,10 +102,10 @@
 					</div>
 					<div class="col-lg-4 col-md-4">
 						<div class="icon-bx-wraper style-9 center">
-							<div class="icon-bx-sm radius gradient"> 
+							<div class="icon-bx-sm radius gradient">
 								<a href="javascript:void(0);" class="icon-cell text-white">
 									<i class="las la-envelope-open"></i>
-								</a> 
+								</a>
 							</div>
 							<div class="icon-content">
 								<h4 class="dlab-title">Email</h4>
