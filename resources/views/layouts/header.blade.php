@@ -1,13 +1,12 @@
 
-<header class="site-header header  @if($route === 'home' || $route === 'blog' ) header-transparent @endif text-black mo-left">
+<header class="site-header header  @if($route === 'home') header-transparent @elseif($route === 'about') shadow @elseif($route==='blog') header mo-left header-transparent : '' @endif text-black mo-left" data-aos="fade-down" data-aos-duration="1000">
     <!-- Main Header -->
     <div class="sticky-header main-bar-wraper navbar-expand-lg ">
         <div class="main-bar clearfix ">
             <div class="container clearfix">
-
                 <!-- Website Logo -->
                 <div class="logo-header logo-dark ">
-                    <a href="index.html"><img src="/storage/images/logo.png" alt=""></a>
+                    <a href="index.html"> @if($route==='blog') <img src="/storage/images/header-logo-white.png" alt=""> @else <img src="/storage/images/header-logo.png" alt="">  @endif</a>
                 </div>
 
                 <!-- Nav Toggle Button -->
@@ -20,31 +19,31 @@
                 <!-- Extra Nav -->
                 <div class="extra-nav">
                     <div class="extra-cell">
-                        <a href="contact-us-2.html" class="btn btn-primary">Get A Quote <i class="fa fa-angle-right m-l10"></i></a>
+                        <a href="{{route('contact')}} " class="btn btn-primary">Nous Contacter</a>
                     </div>
                 </div>
 
-                <div class="header-nav navbar-collapse collapse justify-content-end" id="navbarNavDropdown">
+                <div class="header-nav @if($route==='blog') text-white @endif  navbar-collapse collapse justify-content-end" id="navbarNavDropdown">
                     <div class="logo-header logo-dark">
-                        <a href="index.html"><img src="/storage/images/logo-4.png" alt=""></a>
+                        <a href="index.html"><img src="/storage/images/header-logo.png" alt=""></a>
                     </div>
                     <ul class="nav navbar-nav navbar">
                         <li class="sub-menu {{ request()->routeIs('home') ? 'active' : '' }}">
                             <a href="{{ route('home') }}">
-                                <span>Home</span>
+                                <span>Accueil</span>
                             </a>
                         </li>
                         <li class="sub-menu {{ request()->routeIs('about') ? 'active' : '' }}">
                             <a href="{{ route('about') }}">
-                                <span>about</span>
+                                <span>À propos</span>
                             </a>
                         </li>
-                        <li class="sub-menu {{ request()->routeIs('blog') ? 'active' : '' }}">
+                        <li class="sub-menu {{ request()->routeIs('blog') ? 'active text-black' : '' }}">
                             <a href="{{ route('blog') }}">
                                 <span>blog</span>
                             </a>
                         </li>
-                        <li class="sub-menu {{ request()->routeIs('services') ? 'active' : '' }}">
+                        <li class="sub-menu {{ request()->routeIs('services') ? 'active'  : '' }}">
                             <a href="{{ route('services') }}">
                                 <span>services</span>
                             </a>

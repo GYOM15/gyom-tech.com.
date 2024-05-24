@@ -28,3 +28,15 @@ body{
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{
 	color: #141752;
 }
+
+.title h6::before{
+    content: "";
+    width: 34px;
+    height: 4px;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: rgba(245, 95, 141, 0.9);
+    margin-right: 12px;
+}
+
+.button a:hover{background: white; color: var(--primary);}
