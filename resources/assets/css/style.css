@@ -991,7 +991,7 @@ progress {
       align-items: center;
       text-align: center;
       padding: 10px 10px 15px;
-      box-shadow: 0 0 5px rgba(35, 74, 218, 0.9) ;
+      box-shadow: 0 0 5px rgba(255, 255, 255, 0.9) ;
   }
 
   .team .carte-team .t_description i:hover{

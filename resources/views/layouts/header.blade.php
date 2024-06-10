@@ -6,7 +6,7 @@
             <div class="container clearfix">
                 <!-- Website Logo -->
                 <div class="logo-header logo-dark ">
-                    <a href="index.html"> @if($route==='blog') <img src="/storage/images/header-logo-white.png" alt=""> @else <img src="/storage/images/header-logo.png" alt="">  @endif</a>
+                    <a href="{{route("home")}}"> @if($route==='blog') <img src="/storage/images/header-logo-white.png" alt=""> @else <img src="/storage/images/header-logo.png" alt="">  @endif</a>
                 </div>
 
                 <!-- Nav Toggle Button -->
@@ -38,7 +38,7 @@
                                 <span>À propos</span>
                             </a>
                         </li>
-                        <li class="sub-menu {{ request()->routeIs('blog') ? 'active text-black' : '' }}">
+                        <li class="sub-menu {{ request()->routeIs('blog') ? 'active Comm' : '' }}">
                             <a href="{{ route('blog') }}">
                                 <span>blog</span>
                             </a>
@@ -51,11 +51,6 @@
                         <li class="sub-menu {{ request()->routeIs('projets') ? 'active' : '' }}">
                             <a href="{{ route('projets') }}">
                                 <span>projets</span>
-                            </a>
-                        </li>
-                        <li class="sub-menu {{ request()->routeIs('contact') ? 'active' : '' }}">
-                            <a href="{{ route('contact') }}">
-                                <span>contact</span>
                             </a>
                         </li>
 

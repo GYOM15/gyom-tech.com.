@@ -1,7 +1,9 @@
 <?php
 
+
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\NewsletterController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +15,7 @@ use App\Http\Controllers\ContactController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+Route::post('/newsletter/register', [NewsletterController::class, 'register'])->name('newsletter.register');
 
 Route::get('/', function () {
     return view('home');

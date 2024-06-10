@@ -115,7 +115,7 @@
         <div class="container all_team" id="team">
             <div class="row gx-4 team">
                 
-                <div class="col-xl-3 col-md-3  mb-5 mt-5 carte-team" data-aos="zoom-in-right" data-aos-duration="800">
+                <div class="col-xl-3 col-md-6  mb-5 mt-5 carte-team" data-aos="zoom-in-right" data-aos-duration="800">
                     <div class="team-image" ><img src="/storage/images/about/logo.png" alt=""></div>
                     <div class="t_description">
                         <h5 class="ms-2 me-3">Ezéchiel Amen AGBLA</h5>
@@ -128,7 +128,7 @@
                     </div>
                 </div>
 
-                <div class="col-xl-3 col-md-3  mb-5 mt-5 carte-team" data-aos="zoom-in" data-aos-duration="800">
+                <div class="col-xl-3 col-md-6  mb-5 mt-5 carte-team" data-aos="zoom-in" data-aos-duration="800">
                     <div class="team-image" ><img src="/storage/images/about/logo.png" alt=""></div>
                     <div class="t_description">
                         <h5 class="ms-2 me-3">Aristide Gnimassou</h5>
@@ -141,7 +141,7 @@
                     </div>
                 </div>
 
-                <div class="col-xl-3 col-md-3  mb-5 mt-5 carte-team" data-aos="zoom-in-left" data-aos-duration="800">
+                <div class="col-xl-3 col-md-6  mb-5 mt-5 carte-team" data-aos="zoom-in-left" data-aos-duration="800">
                     <div class="team-image" ><img src="/storage/images/about/logo.png" alt=""></div>
                     <div class="t_description">
                         <h5 class="ms-2 me-3">Sékou Kaba</h5>
@@ -154,7 +154,7 @@
                     </div>
                 </div>
                 
-                <div class="col-xl-3 col-md-3  mb-5 mt-5 carte-team" data-aos="zoom-in-left" data-aos-duration="800">
+                <div class="col-xl-3 col-md-6  mb-5 mt-5 carte-team" data-aos="zoom-in-left" data-aos-duration="800">
                     <div class="team-image" ><img src="/storage/images/about/logo.png" alt=""></div>
                     <div class="t_description">
                         <h5 class="ms-2 me-3">Guy Olivier Millimouno</h5>

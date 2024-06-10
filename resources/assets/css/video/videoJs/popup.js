@@ -5,11 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const videoPlayer = document.getElementById("videoPlayer");
     const body = document.body;
 
-    // Function to disable scrolling
-    function disableScroll() {
-        body.style.overflow = 'hidden';
-    }
-
+    
     // Function to enable scrolling
     function enableScroll() {
         body.style.overflow = '';
@@ -18,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Event listener for play button
     playBtn.addEventListener("click", () => {
         setTimeout(() => {
-            videoPopup.style.display = "block";
+            videoPopup.style.display = "flex"; // Utiliser "flex" pour le centrer
             videoPlayer.play(); 
             videoPlayer.currentTime = 0;
             disableScroll(); // Disable scrolling when popup is open

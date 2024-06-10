@@ -3,7 +3,7 @@
 @endphp
 
 <footer class="site-footer {{ $route === 'home' ? 'style-4' : 'style-2' }}" id="footer" style="background-image: url({{ $route === 'home' ? '/storage/images/background/bg10.png' : '/storage/images/background/bg4.png' }}); background-size: cover;" data-aos="fade-up" data-aos-duration="999">
-    
+        
         @if ($route === 'home')
         <div class="footer-top">
             <div class="container">
@@ -18,11 +18,12 @@
                         <div class="col-md-7 col-xl-6 ms-auto wow " data-aos="fade-left" data-aos-duration="1000">
                             <h6 class="title">S'inscrire À Notre Newsletter</h6>
                             <div class="dlab-subscribe style-4">
-                                <form class="dzSubscribe" action="script/mailchamp.php" method="post">
+                                <form class="dzSubscribe"  action="{{route('newsletter.register')}}" method="post">
+                                    @csrf
                                     <div class="dzSubscribeMsg"></div>
                                     <div class="form-group">
                                         <div class="input-group">
-                                            <input name="dzEmail" required="required" type="email" class="form-control" placeholder="Votre Adresse Email">
+                                            <input name="email" type="email" class="form-control" placeholder="Votre Adresse Email">
                                             <div class="input-group-addon">
                                                 <button name="submit" value="Submit" type="submit" class="btn btn-light">S'inscrire</button>
                                             </div>
@@ -43,11 +44,12 @@
                         <h2 class="title">S'inscrire À Notre Newsletter</h2>
                     </div>
                     <div class="col-lg-6">
-                        <form class="dzSubscribe" action="script/mailchamp.php" method="post">
+                        <form class="dzSubscribe" action="{{route('newsletter.register')}}" method="post">
+                            @csrf
                             <div class="dzSubscribeMsg"></div>
                             <div class="form-group">
                                 <div class="input-group shadow">
-                                    <input name="dzEmail" required="required" type="email" class="form-control" placeholder="Votre Adresse Email">
+                                    <input name="email" type="email" class="form-control" placeholder="Votre Adresse Email">
                                     <div class="input-group-addon">
                                         <button name="submit" value="Submit" type="submit" class="btn btn-primary gradient">
                                             <i class="las la-paper-plane scale4"></i>
@@ -128,8 +130,8 @@
         </div>
 
         <div class="footer-bottom">
-            <div class="col text-center">
-                <span class="copyright-text">Copyright © 2024 <a href="{{route('home')}} " data-aos="fade-up" data-aos-duration="1500">GTS</a>. Tous droits réservés.</span>
+            <div class="col text-center" >
+                <span class="copyright-text" data-aos="fade-up" data-aos-duration="1500">Copyright © 2024 <a href="{{route('home')}} ">GTS</a>. Tous droits réservés.</span>
             </div>
         </div>
     </div>

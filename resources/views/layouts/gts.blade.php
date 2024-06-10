@@ -37,6 +37,7 @@
     'resources/assets/vendor/animate/animate.css',
     'resources/assets/vendor/lightgallery/css/lightgallery.min.css',
     'resources/assets/css/style.css',
+    'resources/assets/css/services.css',
     'resources/assets/css/video/videoCss/play-bouton.css',
     'resources/assets/css/video/videoJs/popup.js',
     'resources/assets/css/skin/skin-4.css',
