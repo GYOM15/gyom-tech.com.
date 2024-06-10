@@ -82,7 +82,7 @@
             <div class="col-lg-12">
                 <!-- Bouton Play -->
                 <div class="video-box">
-                    <a href="javascript:void();">
+                    <a href="javascript:void(0);">
                         <img src="/storage/images/video/team-img.jpg" alt="Video Play button">
                         <div class="play-btn" id="playBtn">
                             <i class="fa fa-play "></i>
@@ -104,7 +104,6 @@
         </div>
     </div>
 </section>
- 
 <!-- Team -->
 <section class="content-inner-2 title" style="background-image: url(/storage/images/background/bg16.png); background-size: cover; background-position: top center; background-repeat: no-repeat;">
     <div class="container ">
