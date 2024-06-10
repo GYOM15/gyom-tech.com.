@@ -221,7 +221,7 @@
                         </div>
                         <div class="col-lg-6 m-b30 wow " data-aos="fade-left" data-aos-duration="1000">
                             <div class="icon-bx-wraper style-12 wow zoomIn" data-wow-delay="1s">
-                                <ul class="nav nav-tabs" style="--sr-total: 6">            
+                                <ul class="nav nav-tabs" style="--sr-total: 6">
                                     <li class="nav-item" style="--sr-item:1">
                                         <a class="nav-link" href="javascript:void(0);" data-bs-toggle="tab" data-bs-target="#service4"><img src="/storage/images/icon/icon4.svg" alt=""></a>
                                     </li>
@@ -239,7 +239,7 @@
                                     </li>
                                     <li class="nav-item" style="--sr-item:6">
                                         <a class="nav-link" href="javascript:void(0);" data-bs-toggle="tab" data-bs-target="#service2"><img src="/storage/images/icon/icon2.svg" alt=""></a>
-                                    </li> 
+                                    </li>
                                 </ul>
                                 <div class="tab-content">
                                     <div class="tab-pane active fade show" id="service1">

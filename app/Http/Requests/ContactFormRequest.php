@@ -27,6 +27,7 @@ class ContactFormRequest extends FormRequest
             'phone' => ['required', 'regex:/^[0-9+]{3,}$/'],
             'email' => ['required', 'email'],
             'message' => ['required', 'regex:/^.{5,}$/u'],
+            'g-recaptcha-response' => ['required'],
         ];
     }
 }
