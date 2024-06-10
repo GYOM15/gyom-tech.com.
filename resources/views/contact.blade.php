@@ -34,16 +34,8 @@
 						</div>
 					</div>
 					<div class="col-lg-6 m-b30 wow " data-aos="fade-left" data-aos-duration="1000">
-						@if(session('success'))
-						<div class= "alert alert-success">
-							{{ session('success') }}
-						</div>
-						@endif
-						@if(session('error'))
-						<div class= "alert alert-danger">
-							{{ session('error') }}
-						</div>
-						@endif
+
+						@include('shared.flash')
 
 						<form class="form-group" id="contact-form" method="post" action="{{route('contact.send')}} ">
 							@csrf

@@ -334,8 +334,8 @@
                                 <div class="item wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.1s">
                                     <div class="dlab-box dlab-overlay-box style-4 m-b30 overlay-shine active">
                                         <div class="dlab-media dlab-img-overlay1">
-                                            <img src="/storage/images/portfolio/pic1.jpg" alt="">
-                                            <span data-exthumbimage="/storage/images/portfolio/pic1.jpg" data-src="/storage/images/portfolio/pic1.jpg" class="lightimg" title="Design">
+                                            <img src="/storage/images/portfolio/pica.jpg" alt="">
+                                            <span data-exthumbimage="/storage/images/portfolio/pica.jpg" data-src="/storage/images/portfolio/pica.jpg" class="lightimg" title="Design">
                                                 <i class="la la-plus"></i>
                                             </span>
                                         </div>
@@ -349,8 +349,8 @@
                                 <div class="item wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.2s">
                                     <div class="dlab-box dlab-overlay-box style-4 m-b30 overlay-shine">
                                         <div class="dlab-media dlab-img-overlay1">
-                                            <img src="/storage/images/portfolio/pic2.jpg" alt="">
-                                            <span data-exthumbimage="/storage/images/portfolio/pic2.jpg" data-src="/storage/images/portfolio/pic2.jpg" class="lightimg" title="Design">
+                                            <img src="/storage/images/portfolio/picb.jpg" alt="">
+                                            <span data-exthumbimage="/storage/images/portfolio/picb.jpg" data-src="/storage/images/portfolio/picb.jpg" class="lightimg" title="Design">
                                                 <i class="la la-plus"></i>
                                             </span>
                                         </div>
