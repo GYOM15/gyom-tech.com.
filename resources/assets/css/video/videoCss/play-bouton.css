@@ -1,11 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    color: rgb(0, 0, 0);
-}
 
 .video-box {
     width: 90%;
@@ -94,7 +86,6 @@ body {
     }
 }
 
-
 .popup {
     display: none;
     position: fixed;
@@ -107,14 +98,18 @@ body {
 }
 
 .popup-content {
-    position: relative;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: transparent;
+    background: #fff; /* Changed to white for better readability */
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
-    width: 80%;
-    height: 80%;
+    width: 90%;
+    max-width: 3000px; /* Maximum width of the popup */
+    height: auto; /* Adjust height automatically */
+    max-height: 90%; /* Maximum height of the popup */
+    overflow: hidden; /* Prevent content overflow */
+    border-radius: 10px; /* Optional: add some border radius for a better look */
 }
 
 .popup-content-inner {
@@ -125,25 +120,22 @@ body {
 
 .close-btn {
     position: absolute;
-    top: -5px;
-    right: 0px;
+    top: 10px; /* Adjusted for better placement */
+    right: 10px; /* Adjusted for better placement */
     font-size: 24px;
     color: rgb(255, 255, 255);
     cursor: pointer;
     z-index: 2;
     font-weight: bold;
-   
 }
-.fa-xmark{
-     color: rgba(245, 95, 141, 0.9);
-     padding: 0 6px;
+
+.fa-xmark {
+    color: rgba(245, 95, 141, 0.9);
+    padding: 0 6px;
 }
 
 video {
-    max-width: 100%;
-    height: auto;
+    width: 100%; /* Ensures video takes full width of the container */
+    height: auto; /* Maintains aspect ratio */
     padding: 1px;
 }
-
-
-
