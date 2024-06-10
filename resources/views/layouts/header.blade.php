@@ -38,7 +38,7 @@
                                 <span>À propos</span>
                             </a>
                         </li>
-                        <li class="sub-menu {{ request()->routeIs('blog') ? 'active Comm' : '' }}">
+                        <li class="sub-menu {{ request()->routeIs('blog') ? 'active' : '' }}">
                             <a href="{{ route('blog') }}">
                                 <span>blog</span>
                             </a>
