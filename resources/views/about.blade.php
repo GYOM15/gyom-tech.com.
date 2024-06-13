@@ -303,5 +303,7 @@
     </div>
 </section>
 
+<!-- Clients Logo -->
+@include('shared.clientLogo')
 
 @endsection
