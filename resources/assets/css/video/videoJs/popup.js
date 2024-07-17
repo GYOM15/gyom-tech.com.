@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
             videoPopup.style.display = "flex"; // Utiliser "flex" pour le centrer
             videoPlayer.play(); 
             videoPlayer.currentTime = 0;
-            disableScroll(); // Disable scrolling when popup is open
+           // Disable scrolling when popup is open
         }, 1000);
     });
 

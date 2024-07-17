@@ -1,13 +1,13 @@
 <?php
-
 namespace App\Http\Controllers;
 
-use App\Http\Requests\ContactFormRequest;
-use App\Models\Message;
-use App\Jobs\ContactJob;
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Http;
 use GuzzleHttp\Client;
+use App\Mail\ContactUs;
+use App\Models\Message;
+use Illuminate\Http\Request;
+use App\Events\ContactRequestEvent;
+use Illuminate\Support\Facades\Mail;
+use App\Http\Requests\ContactFormRequest;
 
 class ContactController extends Controller
 {
@@ -27,28 +27,19 @@ class ContactController extends Controller
             'response' => $recaptcha,
             'remoteip' => $request->ip()
         ];
-        
-        $response = $client->post(
-            'https://www.google.com/recaptcha/api/siteverify',
-            [
-                'form_params'=>$params
-            ]
-        );
 
-        $result = json_decode((string)$response->getBody());
+        $response = $client->post($url, ['form_params' => $params]);
+        $result = json_decode((string) $response->getBody());
 
-
-        // dd(config('services.recaptcha.secret'),$result);
-
-        if ($result->success == true) {
-            // Insérer d'abord le message avant l'envoi de l'email
-            Message::create($request->validated());
-            // Mail::to('calebkoffi21@gmail.com')->send(new ContactUs($request->validated()));
-            $job = (new ContactJob($request->validated()));
-            dispatch($job);
+        if ($result && $result->success == true) {
+            //Inserer ces informations dans la base de données
+            $message = Message::create($request->validated());
+            //Déclencher l'évènement
+            event(new ContactRequestEvent($message));
             return redirect()->back()->with('success', 'Votre mail a été bien envoyé');
         } else {
             return redirect()->back()->with('error', "Veuillez compléter le reCAPTCHA à nouveau pour continuer");
         }
     }
 }
+

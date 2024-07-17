@@ -1,6 +1,6 @@
 @extends('layouts.gts')
 
-@section('title', __('SERVICES') )
+@section('title', __('services.services') )
 
 @section('content')
 
@@ -8,12 +8,12 @@
 		<div class="dlab-bnr-inr overlay-gradient-dark text-center" style="background-image: url(/storage/images/banner/bnr1.jpg);">
 			<div class="container">
 				<div class="dlab-bnr-inr-entry" data-aos="fade-up" data-aos-duration="1000">
-					<h1>Nos services</h1>
+					<h1>{{__('services.services_bnr')}}</h1>
 					<!-- Breadcrumb Row -->
 					<nav aria-label="breadcrumb" class="breadcrumb-row">
 						<ul class="breadcrumb">
-							<li class="breadcrumb-item"><a href="index.html">Accueil</a></li>
-							<li class="breadcrumb-item active" aria-current="page">Services</li>
+							<li class="breadcrumb-item"><a href="{{route('home')}}">{{__('shared.home')}}</a></li>
+							<li class="breadcrumb-item active" aria-current="page">{{__('services.services_bnr')}}</li>
 						</ul>
 					</nav>
 					<!-- Breadcrumb Row End -->
@@ -22,147 +22,142 @@
 		</div>
 		<!-- Banner End -->
 		
-        <section class="content-inner bg-white title" style="background-image: url(/storage/images/background/bg20.png); background-size: cover;">
-            <div class="container">
-                <div class="section-head style-4 text-center" data-aos="fade-right" data-aos-duration="1000">
-                    <h6 class="sub-title">Services</h6>
-                    <div class="p-5"></div>
-                </div>
-                <div class="left-container container lightgallery align-items-center">
-					<div class="card-container row text-center" data-aos="fade-up" data-aos-duration="1111">
+		<div id="hover-message">{{ __('services.hover_message') }}</div>
+		<section class="content-inner bg-white title" style="background-image: url(/storage/images/background/bg20.png); background-size: cover;">
+			<div class="container">
+				<div class="section-head style-4 text-center" data-aos="fade-right" data-aos-duration="1000">
+					<h6 class="sub-title">{{ __('services.section_title') }}</h6>
+					<div class="p-5"></div>
+				</div>
+				<div class="left-container container lightgallery align-items-center">
+					<div class="card-container row text-center" data-aos="fade-up" data-aos-duration="1000">
 						<div class="card col-md-4 col-xl-3">
-							<div class="card-face front  bg-image-1">
+							<div class="card-face front bg-image-1">
 								<div class="overlay"></div>
-								<p><i class="fa-regular fa-eye"></i><br>GTS<br>Deep Vision</p>
+								<p><i class="fa-regular fa-eye"></i><br>{{ __('services.gts') }}<br>{{ __('services.deep_vision') }}</p>
 							</div>
 							<div class="card-face back bg-image-1">
 								<div class="overlay"></div>
-								<p>Nos modèles permettent des applications avancées telles que la reconnaissance de personnes et d'objets, l'analyse de situations, le comptage automatique, ainsi que des analyses approfondies en imagerie satellitaire et médicale.</p>
+								<p>{{ __('services.deep_vision_description') }}</p>
 							</div>
 						</div>
 						<div class="card col-md-4 col-xl-3">
 							<div class="card-face front bg-image-2">
 								<div class="overlay"></div>
-								<p><i class="fa-solid fa-language"></i><br>GTS<br>Deep Language</p>
+								<p><i class="fa-solid fa-language"></i><br>{{ __('services.gts') }}<br>{{ __('services.deep_language') }}</p>
 							</div>
 							<div class="card-face back bg-image-2">
 								<div class="overlay"></div>
-								<p>Optimisez vos stratégies d'écoute client, d'assistance automatisée et de gestion des centres d'appels, tout en intégrant des solutions de communications dialectiques de langues locales, grâce à notre expertise en traitement du langage naturel.</p>
+								<p>{{ __('services.deep_language_description') }}</p>
 							</div>
 						</div>
 						<div class="card col-md-4 col-xl-3">
 							<div class="card-face front bg-image-3">
 								<div class="overlay"></div>
-								<p><i class="fa-solid fa-diagram-project"></i><br>GTS<br>Système d'Optimisation</p>
+								<p><i class="fa-solid fa-diagram-project"></i><br>{{ __('services.gts') }}<br>{{ __('services.optimization_system') }}</p>
 							</div>
 							<div class="card-face back bg-image-3">
 								<div class="overlay"></div>
-								<p>Une suite complète d'outils conçus pour maximiser l'efficacité opérationnelle et la rentabilité de votre entreprise. Grâce à notre combinaison unique de solveurs de programmation par contraintes et d'approches d'apprentissage, nous vous offrons la clé pour une planification précise et une gestion optimale des processus complexes.</p>
+								<p>{{ __('services.optimization_system_description') }}</p>
 							</div>
 						</div>
 					</div>
-					<div class="card-container text-center row" data-aos="fade-left" data-aos-duration="1111">
+					<div class="card-container text-center row" data-aos="fade-left" data-aos-duration="1000">
 						<div class="card col-md-4 col-xl-3">
 							<div class="card-face front bg-image-4">
 								<div class="overlay"></div>
-								<p> <i class="fa-solid fa-mobile-screen-button"></i><br>GTS<br>Developpement Mobile</p>
+								<p><i class="fa-solid fa-mobile-screen-button"></i><br>{{ __('services.gts') }}<br>{{ __('services.mobile_development') }}</p>
 							</div>
 							<div class="card-face back bg-image-4">
 								<div class="overlay"></div>
-								<p>Alliez flexibilité et performances avec nos solutions de développement d'applications natives et hybrides</p>
+								<p>{{ __('services.mobile_development_description') }}</p>
 							</div>
-						</div><div class="card col-md-4 col-xl-3">
+						</div>
+						<div class="card col-md-4 col-xl-3">
 							<div class="card-face front bg-image-5">
 								<div class="overlay"></div>
-								<p><i class="flaticon-boost-1"></i></i><br>GTS<br>Solutions Logicielles & Web</p>
+								<p><i class="flaticon-boost-1"></i><br>{{ __('services.gts') }}<br>{{ __('services.software_web_solutions') }}</p>
 							</div>
 							<div class="card-face back bg-image-5">
 								<div class="overlay"></div>
-								<p>Applications web dynamiques ou systèmes de gestion de contenu sur mesure, notre expertise à votre service</p>
+								<p>{{ __('services.software_web_solutions_description') }}</p>
 							</div>
-						</div><div class="card col-md-4 col-xl-3">
+						</div>
+						<div class="card col-md-4 col-xl-3">
 							<div class="card-face front bg-image-6">
 								<div class="overlay"></div>
-								<p><i class="fa-solid fa-database"></i><br>GTS<br>Modélisation de Base de données</p>
+								<p><i class="fa-solid fa-database"></i><br>{{ __('services.gts') }}<br>{{ __('services.database_modeling') }}</p>
 							</div>
 							<div class="card-face back bg-image-6">
 								<div class="overlay"></div>
-								<p>Optimisez votre gestion de données avec notre savoir-faire en modélisation de bases de données</p>
+								<p>{{ __('services.database_modeling_description') }}</p>
 							</div>
 						</div>
 					</div>
-					<div class="card-container text-center row" data-aos="fade-right" data-aos-duration="1000"> 
+					<div class="card-container text-center row" data-aos="fade-right" data-aos-duration="1000">
 						<div class="card col-md-4 col-xl-3">
-							<div class="card-face front  bg-image-7">
+							<div class="card-face front bg-image-7">
 								<div class="overlay"></div>
-								<p><i class="fas fa-puzzle-piece"></i><br>GTS<br>Analyse Comportementale Avancée</p>
+								<p><i class="fas fa-puzzle-piece"></i><br>{{ __('services.gts') }}<br>{{ __('services.advanced_behavioral_analysis') }}</p>
 							</div>
 							<div class="card-face back bg-image-7">
 								<div class="overlay"></div>
-								<p>Nous utilisons des standards de modélisation de pointe et des techniques d'apprentissage profond pour étudier les comportements des clients, couvrant des domaines allant du marketing à la détection de fraudes.
-									Cas d'utilisation : Analyse de transactions frauduleuses,
-									Segmentations comportementales,
-									Moments de vie,
-									Moteur de recommandation,
-									Prévention de l'attrition</p>
+								<p>{{ __('services.advanced_behavioral_analysis_description') }}</p>
 							</div>
 						</div>
 						<div class="card col-md-4 col-xl-3">
-							<div class="card-face front  bg-image-8">
+							<div class="card-face front bg-image-8">
 								<div class="overlay"></div>
-								<p><i class="fa-solid fa-cloud"></i></i><br>GTS<br>Developpement d'Application dans le Cloud</p>
+								<p><i class="fa-solid fa-cloud"></i><br>{{ __('services.gts') }}<br>{{ __('services.cloud_application_development') }}</p>
 							</div>
 							<div class="card-face back bg-image-8">
 								<div class="overlay"></div>
-								<p> Des applications cloud robustes, sécurisées et évolutives. Profitez d'une mise en service rapide, d'une optimisation des ressources et d'un support continu pour garantir la réussite de votre projet numérique.</p>
+								<p>{{ __('services.cloud_application_development_description') }}</p>
 							</div>
 						</div>
 					</div>
 				</div>
-				
-            </div>
-        </section>
+			</div>
+		</section>
 
-		
-		<!-- Our Fetures -->
 		<section class="content-inner bg-gray" data-aos="fade-up" data-aos-duration="1000">
 			<div class="container">
 				<div class="section-head style-3 text-center">
-					<h2 class="title">Évolution</h2>
+					<h2 class="title">{{ __('services.evolution') }}</h2>
 				</div>
 				<div class="row align-items-center about-wraper-2">
 					<div class="col-lg-4 col-md-6">
 						<div class="row">
 							<div class="col-lg-12 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.2s">
 								<div class="icon-bx-wraper right m-b10 icon-up style-8 m-md-b30">
-									<div class="icon-bx-sm m-b20"> 
-										<a href="javascript:void(0);" class="icon-cell"><i class="flaticon-idea"></i></a> 
+									<div class="icon-bx-sm m-b20">
+										<a href="javascript:void(0);" class="icon-cell"><i class="flaticon-idea"></i></a>
 									</div>
 									<div class="icon-content">
-										<h4 class="dlab-tilte text-capitalize">Analyse</h4>
-										<p>Explorer et comprendre pour mieux créer.</p>
+										<h4 class="dlab-tilte text-capitalize">{{ __('services.analysis') }}</h4>
+										<p>{{ __('services.analysis_description') }}</p>
 									</div>
 								</div>
 							</div>
 							<div class="col-lg-12 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.4s">
 								<div class="icon-bx-wraper right m-b10 icon-up style-8 m-md-b30">
-									<div class="icon-bx-sm m-b20"> 
-										<a href="javascript:void(0);" class="icon-cell"><i class="flaticon-vector"></i></a> 
+									<div class="icon-bx-sm m-b20">
+										<a href="javascript:void(0);" class="icon-cell"><i class="flaticon-vector"></i></a>
 									</div>
 									<div class="icon-content">
-										<h4 class="dlab-tilte text-capitalize">Conception</h4>
-										<p>Design pensé pour vous, par nous.</p>
+										<h4 class="dlab-tilte text-capitalize">{{ __('services.design') }}</h4>
+										<p>{{ __('services.design_description') }}</p>
 									</div>
 								</div>
 							</div>
 							<div class="col-lg-12 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.4s">
 								<div class="icon-bx-wraper right m-b10 icon-up style-8 m-md-b30">
-									<div class="icon-bx-sm m-b20"> 
-										<a href="javascript:void(0);" class="icon-cell"><i class="fa-solid fa-ranking-star"></i></a> 
+									<div class="icon-bx-sm m-b20">
+										<a href="javascript:void(0);" class="icon-cell"><i class="fa-solid fa-ranking-star"></i></a>
 									</div>
 									<div class="icon-content">
-										<h4 class="dlab-tilte text-capitalize">Marketing SEO</h4>
-										<p>Être vu, être trouvé, être aimé.</p>
+										<h4 class="dlab-tilte text-capitalize">{{ __('services.seo_marketing') }}</h4>
+										<p>{{ __('services.seo_marketing_description') }}</p>
 									</div>
 								</div>
 							</div>
@@ -177,34 +172,34 @@
 						<div class="row">
 							<div class="col-lg-12 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.2s">
 								<div class="icon-bx-wraper left m-b10 icon-up style-8 m-md-b30">
-									<div class="icon-bx-sm m-b20"> 
-										<a href="javascript:void(0);" class="icon-cell"><i class="flaticon-coding"></i></a> 
+									<div class="icon-bx-sm m-b20">
+										<a href="javascript:void(0);" class="icon-cell"><i class="flaticon-coding"></i></a>
 									</div>
 									<div class="icon-content">
-										<h4 class="dlab-tilte text-capitalize">Développement</h4>
-										<p>Fait avec soin, codé avec passion.</p>
+										<h4 class="dlab-tilte text-capitalize">{{ __('services.development') }}</h4>
+										<p>{{ __('services.development_description') }}</p>
 									</div>
 								</div>
 							</div>
 							<div class="col-lg-12 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.4s">
 								<div class="icon-bx-wraper left m-b10 icon-up style-8 m-md-b30">
-									<div class="icon-bx-sm m-b20"> 
-										<a href="javascript:void(0);" class="icon-cell"><i class="flaticon-rocket"></i></a> 
+									<div class="icon-bx-sm m-b20">
+										<a href="javascript:void(0);" class="icon-cell"><i class="flaticon-rocket"></i></a>
 									</div>
 									<div class="icon-content">
-										<h4 class="dlab-tilte text-capitalize">Lancement</h4>
-										<p>Prêt à briller? On s'occupe de tout.</p>
+										<h4 class="dlab-tilte text-capitalize">{{ __('services.launch') }}</h4>
+										<p>{{ __('services.launch_description') }}</p>
 									</div>
 								</div>
 							</div>
-							<div class="col-lg-12 wow fadeInUp " data-wow-duration="2s" data-wow-delay="0.4s">
+							<div class="col-lg-12 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.4s">
 								<div class="icon-bx-wraper left m-b10 icon-up style-8 m-md-b30">
-									<div class="icon-bx-sm m-b20"> 
-										<a href="javascript:void(0);" class="icon-cell"><i class="fa-brands fa-searchengin"></i></i></a> 
+									<div class="icon-bx-sm m-b20">
+										<a href="javascript:void(0);" class="icon-cell"><i class="fa-brands fa-searchengin"></i></a>
 									</div>
 									<div class="icon-content">
-										<h4 class="dlab-tilte text-capitalize">Recherche</h4>
-										<p>Des informations qui guident, des solutions qui inspirent.</p>
+										<h4 class="dlab-tilte text-capitalize">{{ __('services.research') }}</h4>
+										<p>{{ __('services.research_description') }}</p>
 									</div>
 								</div>
 							</div>
@@ -213,17 +208,8 @@
 				</div>
 			</div>
 		</section>
-		
-		
-		<!-- Contact -->
-		<div class="content-inner-3 button" data-aos="fade-up" data-aos-duration="1000">
-            <!-- Contact button -->
-            <div class = "row p-5 gy-5">
-                <div class = "container text-center">
-                    <p style = "font-size : 2em;">Seulement quelques minutes suffisent pour commencer avec GTS. <br> Comprenez vos besoins, commencez avec nous, dès aujourd'hui.</p>
-                    <a class="btn btn-primary mr-1" >Contactez-Nous<span class=" m-2"> <i class="fa-solid fa-arrow-right"></i><span> </a>
-                </div>
-            </div>
-		</div>
+
+		<!-- Call to action button -->
+		@include('shared.cta')
 
 @endsection

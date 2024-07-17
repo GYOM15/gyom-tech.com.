@@ -9,19 +9,20 @@ use Illuminate\Queue\SerializesModels;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
+use App\Models\Message;
 
 class ContactJob implements ShouldQueue
 {
     use Dispatchable, InteractsWithQueue, Queueable, SerializesModels;
 
-    protected $data;
+    protected $message;
 
     /**
      * Create a new job instance.
      */
-    public function __construct($data)
+    public function __construct(Message $message)
     {
-        $this->data= $data;
+        $this->message = $message;
     }
 
     /**
@@ -29,7 +30,8 @@ class ContactJob implements ShouldQueue
      */
     public function handle(): void
     {
-        $mailable = new ContactUs($this->data);
-        Mail::to('calebkoffi21@gmail.com')->send($mailable);
+        $mailable = new ContactUs($this->message);
+        Mail::to('contact@gyom-tech.com')->send($mailable);
     }
 }
+

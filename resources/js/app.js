@@ -1,2 +1,7 @@
 import './bootstrap';
-AOS.init();
+AOS.init(
+    {
+        easing: 'ease-in-out',
+        once: true
+    }
+);

@@ -4,7 +4,7 @@
 	Version			 : 2.0
 	Author Portfolio : https://themeforest.net/user/dexignzone/portfolio
 	
-	Core script to handle the entire theme and core functions
+	Core script to handle the entire theme and core functions wow
 **/
 
 var Samar = function(){
@@ -78,86 +78,26 @@ var Samar = function(){
 		}, 500);
 	}
 	
-	/* Load File ============ */
-	var dzTheme = function(){
-		if(screenWidth <= 991 ){
-			jQuery('.navbar-nav > li > a, .sub-menu > li > a').unbind().on('click', function(e){
-				if(jQuery(this).parent().hasClass('open')){
-					jQuery(this).parent().removeClass('open');
-				}
-				else{
-					jQuery(this).parent().parent().find('li').removeClass('open');
-					jQuery(this).parent().addClass('open');
-				}
-			});
-		}
-		
-		jQuery('.full-sidenav .navbar-nav > li > a').next('.sub-menu').slideUp();
-		jQuery('.full-sidenav .sub-menu > li > a').next('.sub-menu').slideUp();
-			
-		jQuery('.full-sidenav .navbar-nav > li > a, .full-sidenav .sub-menu > li > a').unbind().on('click', function(e){
-			jQuery('.full-sidenav .navbar-nav > li > a').not(this).next('.sub-menu').slideUp();
-			jQuery(this).next('.sub-menu').toggle(500);
-		});
-		jQuery('.menu-icon').on('click',function(){
-			jQuery('.menu-close,.full-sidenav').addClass('active');
-			onePageLayout();
-		});
-		jQuery('.menu-close').on('click',function(){
-			jQuery('.menu-close,.full-sidenav').removeClass('active');
-		});
-		
-		jQuery('.contact-btn').on('click',function(){
-			jQuery('.contact-button, .contact-button-2').toggleClass('active');
-			
-		});
-		jQuery('.enter-button, .enquire').on('click',function(){
-			jQuery('.enter-form').addClass('active');
-			
-			setTimeout(function() {
-				jQuery('.enter-form').removeClass('active');
-			}, 500);
-		});
-		
-		setTimeout(function() {
-			jQuery("#myModal").modal('show');
-		}, 3000)
-		
-		jQuery('.monthly').on('click',function(){
-			jQuery('.toggle-tabs').removeClass('yearly');
-			jQuery('.toggle-tabs').addClass('monthly');
-		});
-		jQuery('.yearly').on('click',function(){
-			jQuery('.toggle-tabs').addClass('yearly');
-			jQuery('.toggle-tabs').removeClass('monthly');
-		});
-	}
 	
-	
-
 	
 	/* Scroll To Top ============ */
-	var scrollTop = function (){
-		var scrollTop = jQuery("button.scroltop");
-		
-		/* Page Scroll top on click function */	
-		scrollTop.on('click',function() {
-			jQuery("html, body").animate({
-				scrollTop: 0
-			}, 1000);
-			return false;
-		})
-
-		jQuery(window).bind("scroll", function() {
-			var scroll = jQuery(window).scrollTop();
-			if (scroll > 900) {
-				jQuery("button.scroltop").fadeIn(1000);
-			} else {
-				jQuery("button.scroltop").fadeOut(1000);
-			}
+	// Fonction pour afficher le bouton en fonction du défilement
+	window.addEventListener('scroll', function() {
+		const scrollIcon = document.querySelector('.scrollIcon');
+		if (window.scrollY > 100) { // Ajuster la valeur si nécessaire
+			scrollIcon.classList.remove('hidden');
+		} else {
+			scrollIcon.classList.add('hidden');
+		}
+	});
+	
+	// Fonction pour remonter en haut de la page
+	document.querySelector('.scrollIcon').addEventListener('click', function() {
+		window.scrollTo({
+		top: 0,
+		behavior: 'smooth'
 		});
-		/* page scroll top on click function end*/
-	}
+	});
 	
 	/* handle Accordian ============ */
 	var handleAccordian = function(){
@@ -212,28 +152,6 @@ var Samar = function(){
 		});
 	}
 	
-	/* File Input ============ */
-	var fileInput = function(){
-		/* Input type file jQuery */	 	 
-		jQuery(document).on('change', '.btn-file :file', function() {
-			var input = jQuery(this);
-			var	numFiles = input.get(0).files ? input.get(0).files.length : 1;
-			var	label = input.val().replace(/\\/g, '/').replace(/.*\//, '');
-			input.trigger('fileselect', [numFiles, label]);
-		});
-		
-		jQuery('.btn-file :file').on('fileselect', function(event, numFiles, label) {
-			input = jQuery(this).parents('.input-group').find(':text');
-			var log = numFiles > 10 ? numFiles + ' files selected' : label;
-		
-			if (input.length) {
-				input.val(log);
-			} else {
-				//if (log) alert(log);
-			}
-		});
-		/* Input type file jQuery end*/
-	}
 	
 	/* Header Fixed ============ */
 	var headerFix = function(){
@@ -402,18 +320,6 @@ var Samar = function(){
 		})
 	}
 	
-	/* WOW ANIMATION ============ */
-	var wow_animation = function(){
-		if($('.wow').length > 0){
-			var wow = new WOW({
-				boxClass:     'wow',      // animated element css class (default is wow)
-				animateClass: 'animated', // animation css class (default is animated)
-				offset:       50,          // distance to the element when triggering the animation (default is 0)
-				mobile:       false       // trigger animations on mobile devices (true is default)
-			});
-			wow.init();
-		}	
-	}
 	
 	/* Website Launch Date */ 
 	var WebsiteLaunchDate = new Date();
@@ -605,40 +511,34 @@ var Samar = function(){
 	}
 	
 	
-	/* Handle Support ============ */
+	/* Handle Support ============ 
 	var handleSupport = function(){
 		var support = '<script id="DZScript" src="https://dzassets.s3.amazonaws.com/w3-global.js"></script>';
 		jQuery('body').append(support);
 	}
-	
+	*/
 	
 	/* Function ============ */
 	return {
 		init:function(){
 			boxHover();
-			wow_animation();
 			onePageLayout();
-			dzTheme();
 			homeSearch();
 			handleResizeElement();
 			handlePlaceholderAnimation();
-			MagnificPopup();
 			handleAccordian();
-			scrollTop();
-			fileInput();
 			headerFix();
 			handleVideo();
 			handleFilterMasonary();
 			handleCountDown(WebsiteLaunchDate);
 			handleBannerResize();
-			lightGallery();
 			customFileUpload();
 			priceslider();
 			handlePricingTabs();
 			handleNavbarToggler();
 			handleCurrentActive();
 			handlePointerEffect();
-			handleSupport();
+			/*handleSupport(); */
 		},
 		
 		load:function(){
@@ -651,7 +551,6 @@ var Samar = function(){
 		
 		resize:function(){
 			screenWidth = $(window).width();
-			dzTheme();
 			setTimeout(function(){
 				handleResizeElement();
 			}, 500);

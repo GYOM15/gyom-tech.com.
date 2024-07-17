@@ -2,7 +2,10 @@
 
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Middleware\LocaleMiddleware;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\ProjectController;
+use App\Http\Controllers\LanguageController;
 use App\Http\Controllers\NewsletterController;
 
 /*
@@ -25,9 +28,6 @@ Route::get('/about', function () {
     return view('about');
 })->name('about');
 
-Route::get('/blog', function () {
-    return view('blog');
-})->name('blog');
 Route::get('/blog-angular-1', function () {
     return view('blog.introduction-test-driven-development-angular');
 })->name('introduction-test-driven-development-angular');
@@ -43,6 +43,7 @@ Route::post('/contact', [
 Route::get('/projets', function () {
     return view('projets');
 })->name('projets');
+Route::get('/projects/filter', [ProjectController::class, 'filter'])->name('projects.filter');
 
 Route::get('/services', function () {
     return view('services');
@@ -51,4 +52,6 @@ Route::get('/services', function () {
 Route::get('/services-details', function () {
     return view('services-details.services-details');
 })->name('services-details');
+
+Route::post('/langage-switch', [LanguageController::class,'languageSwitch'])->name('language.switch');
 

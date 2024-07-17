@@ -1,6 +1,6 @@
 @extends('layouts.gts')
 
-@section('title', __('CONTACT') )
+@section('title', __('contact.contact'))
 
 @section('content')
 
@@ -10,12 +10,12 @@
 		<div class="dlab-bnr-inr overlay-gradient-dark text-center" style="background-image: url(/storage/images/banner/bnr1.jpg);" data-aos="zoom-in" data-aos-duration="1000">
 			<div class="container">
 				<div class="dlab-bnr-inr-entry">
-					<h1>Nous Contacter</h1>
+					<h1>{{__('shared.cta')}}</h1>
 					<!-- Breadcrumb Row -->
 					<nav aria-label="breadcrumb" class="breadcrumb-row">
 						<ul class="breadcrumb">
-							<li class="breadcrumb-item"><a href="{{route('home')}}">Accueil</a></li>
-							<li class="breadcrumb-item active" aria-current="page">Nous Contacter</li>
+							<li class="breadcrumb-item"><a href="{{route('home')}}">{{__('shared.home')}}</a></li>
+							<li class="breadcrumb-item active" aria-current="page">{{__('shared.cta')}}</li>
 						</ul>
 					</nav>
 					<!-- Breadcrumb Row End -->
@@ -40,21 +40,21 @@
 						<form class="form-group" id="contact-form" method="post" action="{{route('contact.send')}} ">
 							@csrf
 							<div class="row gy-4 mb-4">
-								@include('layouts.input', ['class' => 'col-xl-6','placeholder' => 'Prénom', 'name' => 'firstname'])
-								@include('layouts.input', ['class' => 'col-xl-6','placeholder' => 'Nom', 'name' => 'name'])
+								@include('layouts.input', ['class' => 'col-xl-6','placeholder' => __('contact.firstname'), 'name' => 'firstname'])
+								@include('layouts.input', ['class' => 'col-xl-6','placeholder' => __('contact.lastname'), 'name' => 'name'])
 							</div>
 							<div class="row gy-4 mb-4">
-								@include('layouts.input', ['class' => 'col-xl-6','placeholder' => 'Téléphone', 'name' => 'phone'])
-								@include('layouts.input', ['type' => 'email', 'class' => 'col-xl-6','placeholder' => 'Email', 'name' => 'email'])
+								@include('layouts.input', ['class' => 'col-xl-6','placeholder' => __('contact.phone'), 'name' => 'phone'])
+								@include('layouts.input', ['type' => 'email', 'class' => 'col-xl-6','placeholder' => __('contact.email'), 'name' => 'email'])
 							</div>
-							@include('layouts.input', ['type' => 'textarea', 'class' => 'col mb-5','placeholder' => 'Votre message', 'name' => 'message'])
+							@include('layouts.input', ['type' => 'textarea', 'class' => 'col mb-5','placeholder' => __('contact.message'), 'name' => 'message'])
 
 							<!-- Place pour le captcha -->
                             <!-- Google Recaptcha Widget-->
                             <div class="g-recaptcha mt-3" data-sitekey="6LcY6uYpAAAAAGycaMQdDf4d7QBMcjeQuR47QlkR">salut: {{ config('services.recaptcha.key') }}</div>
 
 							<div class="col-sm-12 mt-5">
-								<button name="submit" type="submit" class="btn btn-primary gradient border-0 rounded-xl">Nous contacter</button>
+								<button name="submit" type="submit" class="btn btn-primary gradient border-0 rounded-xl">{{__('shared.cta')}}</button>
 							</div>
 							</div>
 						</form>
@@ -73,9 +73,9 @@
 								</a>
 							</div>
 							<div class="icon-content">
-								<h4 class="dlab-title">Téléphone</h4>
-								<p>123 456 7890</p>
-								<p>987 654 3210</p>
+								<h4 class="dlab-title">{{__('contact.phone_label')}}</h4>
+								<p>+1 514 710 6144</p>
+								<p>+224 622 517 070</p>
 							</div>
 						</div>
 					</div>
@@ -87,7 +87,8 @@
 								</a>
 							</div>
 							<div class="icon-content">
-								<h4 class="dlab-title">Localisation</h4>
+								<h4 class="dlab-title">{{__('contact.location')}}</h4>
+								<p>Rue Egan, Montréal QC</p>
 								<p>Lambanyi, Conakry - Guinéé</p>
 							</div>
 						</div>
@@ -100,7 +101,7 @@
 								</a>
 							</div>
 							<div class="icon-content">
-								<h4 class="dlab-title">Email</h4>
+								<h4 class="dlab-title">{{__('contact.email_label')}}</h4>
 								<p>contact@gyom-tech.com</p>
 								<p>infos@gyom-tech.com</p>
 							</div>

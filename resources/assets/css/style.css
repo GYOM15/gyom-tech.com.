@@ -113,6 +113,7 @@ hr:not([size]) {
     cursor: pointer;
 }
 
+
 .navbar-fixed {
     position: fixed;
     width: 100%;
@@ -33827,4 +33828,4 @@ footer .widget_services ul a:hover {
 }
 
 
-/*# sourceMappingURL=style.css.map */
+

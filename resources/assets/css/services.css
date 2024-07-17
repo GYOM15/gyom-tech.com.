@@ -1,4 +1,11 @@
-
+#hover-message {
+    position: absolute;
+    pointer-events: none;
+    z-index: 1000;
+    color: #ffff;
+    font-size: 20px;
+    display: none; /* Caché par défaut */
+}
 .card-container {
     display: flex;
     flex-wrap: wrap;
@@ -12,14 +19,8 @@
     transform-style: preserve-3d;
     transition: transform 0.6s;
     border-radius: 15px;
-}
-
-.card {
     font-size: 1rem;
-}
-
-.card:hover {
-    transform: rotateY(180deg);
+    cursor: pointer;
 }
 
 .card-face {
@@ -34,6 +35,7 @@
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
+    transition: filter 0.3s;
 }
 
 .card-face.front {
@@ -45,7 +47,7 @@
     background-color: #fff;
     transform: rotateY(180deg);
     padding: 10px;
-    color: black !important ;
+    color: white !important;
 }
 
 .overlay {
@@ -54,16 +56,25 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5)
-    ;
+    background: rgba(0, 0, 0, 0.6);
     z-index: 1;
     pointer-events: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    transition: background 0.3s;
+}
+
+.card:hover .overlay {
+    background: rgba(0, 0, 0, 0.7);
 }
 
 .card-face p {
     position: relative;
     z-index: 2;
-    color: white;
+    color: white; /* Changer la couleur par défaut pour un texte clair */
 }
 
 .bg-image-1 {
@@ -97,7 +108,7 @@
 }
 
 .bg-image-6 {
-    background-image: url('../../../storage/app/public/images/services/dbModélisation.jpeg');
+    background-image: url('../../../storage/app/public/images/services/dbModélisation.jpeg');
     background-size: cover;
     background-position: center;
 }
@@ -114,7 +125,29 @@
     background-position: center;
 }
 
-
-.card i{
+.card i {
     font-size: 30px;
 }
+
+/* Add hover effect for text 
+.card:hover .overlay:after {
+    content: "plus de details";
+    text-decoration: dotted #f55f8d 1px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 300%); /* Positionner sous le pointeur
+     z-index: 3;
+    color: #f55f8d;
+    font-size: 20px;
+} */
+
+/* Darken card content on hover */
+.card.is-flipped {
+    transform: rotateY(180deg);
+}
+
+.card-container{
+    justify-content: center;
+}
+
