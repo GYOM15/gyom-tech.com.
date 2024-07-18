@@ -25,25 +25,26 @@
     </title>
 
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" href="/storage/images/favicon.PNG">
+    <link rel="icon" type="image/png" href="/storage/images/favicon.png">
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- Stylesheet -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     @vite([
-    'resources/assets/vendor/bootstrap-select/bootstrap-select.min.css',
-    'resources/assets/vendor/owl-carousel/owl.carousel.css',
-    'resources/assets/vendor/magnific-popup/magnific-popup.min.css',
-    'resources/assets/vendor/animate/animate.css',
-    'resources/assets/vendor/lightgallery/css/lightgallery.min.css',
-    'resources/assets/css/style.css',
-    'resources/assets/css/otherStyle.css',
-    'resources/assets/css/services.css',
-    'resources/assets/css/video/videoCss/play-bouton.css',
-    'resources/assets/css/video/videoJs/popup.js',
-    'resources/assets/css/skin/skin-4.css',
-    'resources/assets/vendor/rangeslider/rangeslider.css',
+        'resources/css/app.css', 
+        'resources/assets/vendor/bootstrap-select/bootstrap-select.min.css',
+        'resources/assets/vendor/owl-carousel/owl.carousel.css',
+        'resources/assets/vendor/lightgallery/css/lightgallery.min.css',
+        'resources/assets/vendor/animate/animate.css',
+        'resources/assets/css/style.css',
+        'resources/assets/css/skin/skin-4.css',
+        'resources/assets/vendor/magnific-popup/magnific-popup.min.css',
+        'resources/assets/vendor/rangeslider/rangeslider.css',
+        'resources/assets/vendor/swiper/css/swiper.min.css',
+        'resources/assets/css/otherStyle.css',
+        'resources/assets/css/services.css',
+        'resources/assets/css/video/videoCss/play-bouton.css',
     ])
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css" integrity="sha512-rd0qOHVMOcez6pLWPVFIv7EfSdGKLt+eafXh4RO/12Fgr41hDQxfGvoi1Vy55QIVcQEujUE1LQrATCLl2Fs+ag==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -53,7 +54,7 @@
 </head>
 
 <body id="bg" class="layout-light">
-    <div id="loading-area" class="loading-02 loading-03 loading-04">
+    <div id="loading-area" class=" loading-04">
         <div class="loading-inner">
             <div class="loader">
                 <div class="dot"></div>
@@ -87,23 +88,25 @@
 
     </div>
     <!-- JAVASCRIPT FILES ========================================= -->
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     @vite([
-    'resources/assets/js/jquery.min.js',
-    'resources/assets/vendor/bootstrap/js/bootstrap.bundle.min.js',
-    'resources/assets/vendor/owl-carousel/owl.carousel.js',
-    'resources/assets/vendor/magnific-popup/magnific-popup.js',
-    'resources/assets/vendor/counter/waypoints-min.js',
-    'resources/assets/vendor/counter/counterup.min.js',
-    'resources/assets/vendor/masonry/masonry-4.2.2.js',
-    'resources/assets/vendor/masonry/isotope.pkgd.min.js',
-    'resources/assets/vendor/lightgallery/js/lightgallery-all.min.js',
-    'resources/assets/vendor/bootstrap-select/bootstrap-select.min.js',
-    'resources/assets/js/dz.carousel.js',
-    'resources/assets/js/custom.js',
-    'resources/assets/js/services.js',
-    'resources/assets/js/projects.js',
-    'resources/assets/vendor/rangeslider/rangeslider.js',
+        'resources/js/app.js',
+        'resources/assets/vendor/bootstrap/js/bootstrap.bundle.min.js',
+        'resources/assets/vendor/magnific-popup/magnific-popup.js',
+        'resources/assets/vendor/counter/waypoints-min.js',
+        'resources/assets/vendor/counter/counterup.min.js',
+        'resources/assets/vendor/masonry/masonry-4.2.2.js',
+        'resources/assets/vendor/lightgallery/js/lightgallery-all.min.js',
+        'resources/assets/vendor/bootstrap-select/bootstrap-select.min.js',
+        'resources/assets/vendor/masonry/isotope.pkgd.min.js',
+        'resources/assets/js/dz.carousel.js',
+        'resources/assets/js/custom.js',
+        'resources/assets/vendor/rangeslider/rangeslider.js',
+        'resources/assets/vendor/swiper/js/swiper.min.js',
+        'resources/assets/vendor/owl-carousel/owl.carousel.js',
+        'resources/assets/css/video/videoJs/popup.js',
+        'resources/assets/js/services.js',
+        'resources/assets/js/projects.js',
     ])
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js" integrity="sha512-Ysw1DcK1P+uYLqprEAzNQJP+J4hTx4t/3X2nbVwszao8wD+9afLjBQYjz7Uk4ADP+Er++mJoScI42ueGtQOzEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
