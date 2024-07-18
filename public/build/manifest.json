@@ -4,6 +4,90 @@
     "src": "resources/assets/css/otherStyle.css",
     "isEntry": true
   },
+  "resources/assets/css/s/poppins/v20/pxiByp8kv8JHgFVrLBT5V1s.ttf": {
+    "file": "assets/pxiByp8kv8JHgFVrLBT5V1s-LRNqDCdi.ttf",
+    "src": "resources/assets/css/s/poppins/v20/pxiByp8kv8JHgFVrLBT5V1s.ttf"
+  },
+  "resources/assets/css/s/poppins/v20/pxiByp8kv8JHgFVrLCz7V1s.ttf": {
+    "file": "assets/pxiByp8kv8JHgFVrLCz7V1s-CNzhNbUJ.ttf",
+    "src": "resources/assets/css/s/poppins/v20/pxiByp8kv8JHgFVrLCz7V1s.ttf"
+  },
+  "resources/assets/css/s/poppins/v20/pxiByp8kv8JHgFVrLDD4V1s.ttf": {
+    "file": "assets/pxiByp8kv8JHgFVrLDD4V1s-DyUBcaqp.ttf",
+    "src": "resources/assets/css/s/poppins/v20/pxiByp8kv8JHgFVrLDD4V1s.ttf"
+  },
+  "resources/assets/css/s/poppins/v20/pxiByp8kv8JHgFVrLDz8V1s.ttf": {
+    "file": "assets/pxiByp8kv8JHgFVrLDz8V1s-BgbzlW_d.ttf",
+    "src": "resources/assets/css/s/poppins/v20/pxiByp8kv8JHgFVrLDz8V1s.ttf"
+  },
+  "resources/assets/css/s/poppins/v20/pxiByp8kv8JHgFVrLEj6V1s.ttf": {
+    "file": "assets/pxiByp8kv8JHgFVrLEj6V1s-Gz22PxOe.ttf",
+    "src": "resources/assets/css/s/poppins/v20/pxiByp8kv8JHgFVrLEj6V1s.ttf"
+  },
+  "resources/assets/css/s/poppins/v20/pxiByp8kv8JHgFVrLFj_V1s.ttf": {
+    "file": "assets/pxiByp8kv8JHgFVrLFj_V1s-B63ZfaS3.ttf",
+    "src": "resources/assets/css/s/poppins/v20/pxiByp8kv8JHgFVrLFj_V1s.ttf"
+  },
+  "resources/assets/css/s/poppins/v20/pxiByp8kv8JHgFVrLGT9V1s.ttf": {
+    "file": "assets/pxiByp8kv8JHgFVrLGT9V1s-BblA7dQf.ttf",
+    "src": "resources/assets/css/s/poppins/v20/pxiByp8kv8JHgFVrLGT9V1s.ttf"
+  },
+  "resources/assets/css/s/poppins/v20/pxiEyp8kv8JHgFVrFJA.ttf": {
+    "file": "assets/pxiEyp8kv8JHgFVrFJA-C1IsaolU.ttf",
+    "src": "resources/assets/css/s/poppins/v20/pxiEyp8kv8JHgFVrFJA.ttf"
+  },
+  "resources/assets/css/s/poppins/v20/pxiGyp8kv8JHgFVrLPTedw.ttf": {
+    "file": "assets/pxiGyp8kv8JHgFVrLPTedw-BsPnc9Ur.ttf",
+    "src": "resources/assets/css/s/poppins/v20/pxiGyp8kv8JHgFVrLPTedw.ttf"
+  },
+  "resources/assets/css/s/roboto/v30/KFOkCnqEu92Fr1MmgWxP.ttf": {
+    "file": "assets/KFOkCnqEu92Fr1MmgWxP-BEAI_tHe.ttf",
+    "src": "resources/assets/css/s/roboto/v30/KFOkCnqEu92Fr1MmgWxP.ttf"
+  },
+  "resources/assets/css/s/roboto/v30/KFOlCnqEu92Fr1MmEU9vAw.ttf": {
+    "file": "assets/KFOlCnqEu92Fr1MmEU9vAw-BPszL6FQ.ttf",
+    "src": "resources/assets/css/s/roboto/v30/KFOlCnqEu92Fr1MmEU9vAw.ttf"
+  },
+  "resources/assets/css/s/roboto/v30/KFOlCnqEu92Fr1MmSU5vAw.ttf": {
+    "file": "assets/KFOlCnqEu92Fr1MmSU5vAw-DYaxF050.ttf",
+    "src": "resources/assets/css/s/roboto/v30/KFOlCnqEu92Fr1MmSU5vAw.ttf"
+  },
+  "resources/assets/css/s/roboto/v30/KFOlCnqEu92Fr1MmWUlvAw.ttf": {
+    "file": "assets/KFOlCnqEu92Fr1MmWUlvAw-BnrYUwvd.ttf",
+    "src": "resources/assets/css/s/roboto/v30/KFOlCnqEu92Fr1MmWUlvAw.ttf"
+  },
+  "resources/assets/css/s/roboto/v30/KFOlCnqEu92Fr1MmYUtvAw.ttf": {
+    "file": "assets/KFOlCnqEu92Fr1MmYUtvAw-uRPpofqj.ttf",
+    "src": "resources/assets/css/s/roboto/v30/KFOlCnqEu92Fr1MmYUtvAw.ttf"
+  },
+  "resources/assets/css/s/roboto/v30/KFOmCnqEu92Fr1Me5Q.ttf": {
+    "file": "assets/KFOmCnqEu92Fr1Me5Q-Dj9u0zRN.ttf",
+    "src": "resources/assets/css/s/roboto/v30/KFOmCnqEu92Fr1Me5Q.ttf"
+  },
+  "resources/assets/css/s/sourcesanspro/v22/6xK3dSBYKcSV-LCoeQqfX1RYOo3aPw.ttf": {
+    "file": "assets/6xK3dSBYKcSV-LCoeQqfX1RYOo3aPw-Bdf4uoEd.ttf",
+    "src": "resources/assets/css/s/sourcesanspro/v22/6xK3dSBYKcSV-LCoeQqfX1RYOo3aPw.ttf"
+  },
+  "resources/assets/css/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rAkA.ttf": {
+    "file": "assets/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rAkA-BHf6WD6-.ttf",
+    "src": "resources/assets/css/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rAkA.ttf"
+  },
+  "resources/assets/css/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3i94_AkA.ttf": {
+    "file": "assets/6xKydSBYKcSV-LCoeQqfX1RYOo3i94_AkA-D3PTeYae.ttf",
+    "src": "resources/assets/css/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3i94_AkA.ttf"
+  },
+  "resources/assets/css/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vAkA.ttf": {
+    "file": "assets/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vAkA-BPIWfzc9.ttf",
+    "src": "resources/assets/css/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vAkA.ttf"
+  },
+  "resources/assets/css/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zAkA.ttf": {
+    "file": "assets/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zAkA-Jab-GX2k.ttf",
+    "src": "resources/assets/css/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zAkA.ttf"
+  },
+  "resources/assets/css/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3iu4nAkA.ttf": {
+    "file": "assets/6xKydSBYKcSV-LCoeQqfX1RYOo3iu4nAkA-DKLk8ghu.ttf",
+    "src": "resources/assets/css/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3iu4nAkA.ttf"
+  },
   "resources/assets/css/services.css": {
     "file": "assets/services-CTAMVdOI.css",
     "src": "resources/assets/css/services.css",
@@ -15,7 +99,7 @@
     "isEntry": true
   },
   "resources/assets/css/style.css": {
-    "file": "assets/style-CIsRr9Or.css",
+    "file": "assets/style-COmK5O8c.css",
     "src": "resources/assets/css/style.css",
     "isEntry": true
   },
@@ -80,11 +164,11 @@
   },
   "resources/assets/icons/font-awesome/webfonts/fa-regular-400-1.eot": {
     "file": "assets/fa-regular-400-BhTwtT8w.eot",
-    "src": "resources/assets/icons/font-awesome/webfonts/fa-regular-400.eot"
+    "src": "resources/assets/icons/font-awesome/webfonts/fa-regular-400-1.eot"
   },
   "resources/assets/icons/font-awesome/webfonts/fa-regular-400.eot": {
     "file": "assets/fa-regular-400-BhTwtT8w.eot",
-    "src": "resources/assets/icons/font-awesome/webfonts/fa-regular-400.eot"
+    "src": "resources/assets/icons/font-awesome/webfonts/fa-regular-400-1.eot"
   },
   "resources/assets/icons/font-awesome/webfonts/fa-regular-400.svg": {
     "file": "assets/fa-regular-400-gwj8Pxq-.svg",
@@ -128,11 +212,11 @@
   },
   "resources/assets/icons/line-awesome/fonts/la-brands-400-1.eot": {
     "file": "assets/la-brands-400-LN4CMlGg.eot",
-    "src": "resources/assets/icons/line-awesome/fonts/la-brands-400.eot"
+    "src": "resources/assets/icons/line-awesome/fonts/la-brands-400-1.eot"
   },
   "resources/assets/icons/line-awesome/fonts/la-brands-400.eot": {
     "file": "assets/la-brands-400-LN4CMlGg.eot",
-    "src": "resources/assets/icons/line-awesome/fonts/la-brands-400.eot"
+    "src": "resources/assets/icons/line-awesome/fonts/la-brands-400-1.eot"
   },
   "resources/assets/icons/line-awesome/fonts/la-brands-400.svg": {
     "file": "assets/la-brands-400-wsUI3UJ9.svg",
@@ -152,11 +236,11 @@
   },
   "resources/assets/icons/line-awesome/fonts/la-regular-400-1.eot": {
     "file": "assets/la-regular-400-Cx6vm3uW.eot",
-    "src": "resources/assets/icons/line-awesome/fonts/la-regular-400-1.eot"
+    "src": "resources/assets/icons/line-awesome/fonts/la-regular-400.eot"
   },
   "resources/assets/icons/line-awesome/fonts/la-regular-400.eot": {
     "file": "assets/la-regular-400-Cx6vm3uW.eot",
-    "src": "resources/assets/icons/line-awesome/fonts/la-regular-400-1.eot"
+    "src": "resources/assets/icons/line-awesome/fonts/la-regular-400.eot"
   },
   "resources/assets/icons/line-awesome/fonts/la-regular-400.svg": {
     "file": "assets/la-regular-400-BmVb34ql.svg",
@@ -176,11 +260,11 @@
   },
   "resources/assets/icons/line-awesome/fonts/la-solid-900-1.eot": {
     "file": "assets/la-solid-900-DkmX4G2x.eot",
-    "src": "resources/assets/icons/line-awesome/fonts/la-solid-900.eot"
+    "src": "resources/assets/icons/line-awesome/fonts/la-solid-900-1.eot"
   },
   "resources/assets/icons/line-awesome/fonts/la-solid-900.eot": {
     "file": "assets/la-solid-900-DkmX4G2x.eot",
-    "src": "resources/assets/icons/line-awesome/fonts/la-solid-900.eot"
+    "src": "resources/assets/icons/line-awesome/fonts/la-solid-900-1.eot"
   },
   "resources/assets/icons/line-awesome/fonts/la-solid-900.svg": {
     "file": "assets/la-solid-900-dtlPMWb8.svg",
@@ -228,12 +312,6 @@
     "file": "assets/dz.carousel-FD4AhgR7.js",
     "name": "dz.carousel",
     "src": "resources/assets/js/dz.carousel.js",
-    "isEntry": true
-  },
-  "resources/assets/js/jquery.min.js": {
-    "file": "assets/jquery.min-DkVfdLCE.js",
-    "name": "jquery.min",
-    "src": "resources/assets/js/jquery.min.js",
     "isEntry": true
   },
   "resources/assets/js/projects.js": {

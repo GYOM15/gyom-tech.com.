@@ -99,6 +99,7 @@ var Samar = function(){
 		});
 	});
 	
+	
 	/* handle Accordian ============ */
 	var handleAccordian = function(){
 		/* accodin open close icon change */	 	

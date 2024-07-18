@@ -23,10 +23,3 @@
         });
         
  
-  // Fonction pour remonter en haut de la page
-  document.querySelector('.scroll-icon').addEventListener('click', function() {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
-    });
-  });
