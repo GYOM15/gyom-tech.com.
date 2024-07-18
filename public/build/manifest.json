@@ -1,0 +1,432 @@
+{
+  "resources/assets/css/otherStyle.css": {
+    "file": "assets/otherStyle-CfCs9h-1.css",
+    "src": "resources/assets/css/otherStyle.css",
+    "isEntry": true
+  },
+  "resources/assets/css/services.css": {
+    "file": "assets/services-CTAMVdOI.css",
+    "src": "resources/assets/css/services.css",
+    "isEntry": true
+  },
+  "resources/assets/css/skin/skin-4.css": {
+    "file": "assets/skin-4-JT1YqcnM.css",
+    "src": "resources/assets/css/skin/skin-4.css",
+    "isEntry": true
+  },
+  "resources/assets/css/style.css": {
+    "file": "assets/style-CIsRr9Or.css",
+    "src": "resources/assets/css/style.css",
+    "isEntry": true
+  },
+  "resources/assets/css/video/videoCss/play-bouton.css": {
+    "file": "assets/play-bouton-Cliac2KD.css",
+    "src": "resources/assets/css/video/videoCss/play-bouton.css",
+    "isEntry": true
+  },
+  "resources/assets/css/video/videoJs/popup.js": {
+    "file": "assets/popup-BJoMeWPs.js",
+    "name": "popup",
+    "src": "resources/assets/css/video/videoJs/popup.js",
+    "isEntry": true
+  },
+  "resources/assets/icons/flaticon/Flaticon-1.eot": {
+    "file": "assets/Flaticon-CH58XtPd.eot",
+    "src": "resources/assets/icons/flaticon/Flaticon-1.eot"
+  },
+  "resources/assets/icons/flaticon/Flaticon.eot": {
+    "file": "assets/Flaticon-CH58XtPd.eot",
+    "src": "resources/assets/icons/flaticon/Flaticon-1.eot"
+  },
+  "resources/assets/icons/flaticon/Flaticon.svg": {
+    "file": "assets/Flaticon-CUOnin4p.svg",
+    "src": "resources/assets/icons/flaticon/Flaticon.svg"
+  },
+  "resources/assets/icons/flaticon/Flaticon.ttf": {
+    "file": "assets/Flaticon-DwBKYHHb.ttf",
+    "src": "resources/assets/icons/flaticon/Flaticon.ttf"
+  },
+  "resources/assets/icons/flaticon/Flaticon.woff": {
+    "file": "assets/Flaticon-BedX0OYG.woff",
+    "src": "resources/assets/icons/flaticon/Flaticon.woff"
+  },
+  "resources/assets/icons/flaticon/Flaticon.woff2": {
+    "file": "assets/Flaticon-BuVLHGJh.woff2",
+    "src": "resources/assets/icons/flaticon/Flaticon.woff2"
+  },
+  "resources/assets/icons/font-awesome/webfonts/fa-brands-400-1.eot": {
+    "file": "assets/fa-brands-400-DnkPfk3o.eot",
+    "src": "resources/assets/icons/font-awesome/webfonts/fa-brands-400-1.eot"
+  },
+  "resources/assets/icons/font-awesome/webfonts/fa-brands-400.eot": {
+    "file": "assets/fa-brands-400-DnkPfk3o.eot",
+    "src": "resources/assets/icons/font-awesome/webfonts/fa-brands-400-1.eot"
+  },
+  "resources/assets/icons/font-awesome/webfonts/fa-brands-400.svg": {
+    "file": "assets/fa-brands-400-cH1MgKbP.svg",
+    "src": "resources/assets/icons/font-awesome/webfonts/fa-brands-400.svg"
+  },
+  "resources/assets/icons/font-awesome/webfonts/fa-brands-400.ttf": {
+    "file": "assets/fa-brands-400-CSYNqBb_.ttf",
+    "src": "resources/assets/icons/font-awesome/webfonts/fa-brands-400.ttf"
+  },
+  "resources/assets/icons/font-awesome/webfonts/fa-brands-400.woff": {
+    "file": "assets/fa-brands-400-CEJbCg16.woff",
+    "src": "resources/assets/icons/font-awesome/webfonts/fa-brands-400.woff"
+  },
+  "resources/assets/icons/font-awesome/webfonts/fa-brands-400.woff2": {
+    "file": "assets/fa-brands-400-UxlILjvJ.woff2",
+    "src": "resources/assets/icons/font-awesome/webfonts/fa-brands-400.woff2"
+  },
+  "resources/assets/icons/font-awesome/webfonts/fa-regular-400-1.eot": {
+    "file": "assets/fa-regular-400-BhTwtT8w.eot",
+    "src": "resources/assets/icons/font-awesome/webfonts/fa-regular-400.eot"
+  },
+  "resources/assets/icons/font-awesome/webfonts/fa-regular-400.eot": {
+    "file": "assets/fa-regular-400-BhTwtT8w.eot",
+    "src": "resources/assets/icons/font-awesome/webfonts/fa-regular-400.eot"
+  },
+  "resources/assets/icons/font-awesome/webfonts/fa-regular-400.svg": {
+    "file": "assets/fa-regular-400-gwj8Pxq-.svg",
+    "src": "resources/assets/icons/font-awesome/webfonts/fa-regular-400.svg"
+  },
+  "resources/assets/icons/font-awesome/webfonts/fa-regular-400.ttf": {
+    "file": "assets/fa-regular-400-D1vz6WBx.ttf",
+    "src": "resources/assets/icons/font-awesome/webfonts/fa-regular-400.ttf"
+  },
+  "resources/assets/icons/font-awesome/webfonts/fa-regular-400.woff": {
+    "file": "assets/fa-regular-400-DFnMcJPd.woff",
+    "src": "resources/assets/icons/font-awesome/webfonts/fa-regular-400.woff"
+  },
+  "resources/assets/icons/font-awesome/webfonts/fa-regular-400.woff2": {
+    "file": "assets/fa-regular-400-DGzu1beS.woff2",
+    "src": "resources/assets/icons/font-awesome/webfonts/fa-regular-400.woff2"
+  },
+  "resources/assets/icons/font-awesome/webfonts/fa-solid-900-1.eot": {
+    "file": "assets/fa-solid-900-B6Axprfb.eot",
+    "src": "resources/assets/icons/font-awesome/webfonts/fa-solid-900-1.eot"
+  },
+  "resources/assets/icons/font-awesome/webfonts/fa-solid-900.eot": {
+    "file": "assets/fa-solid-900-B6Axprfb.eot",
+    "src": "resources/assets/icons/font-awesome/webfonts/fa-solid-900-1.eot"
+  },
+  "resources/assets/icons/font-awesome/webfonts/fa-solid-900.svg": {
+    "file": "assets/fa-solid-900-B4ZZ7kfP.svg",
+    "src": "resources/assets/icons/font-awesome/webfonts/fa-solid-900.svg"
+  },
+  "resources/assets/icons/font-awesome/webfonts/fa-solid-900.ttf": {
+    "file": "assets/fa-solid-900-mxuxnBEa.ttf",
+    "src": "resources/assets/icons/font-awesome/webfonts/fa-solid-900.ttf"
+  },
+  "resources/assets/icons/font-awesome/webfonts/fa-solid-900.woff": {
+    "file": "assets/fa-solid-900-DOXgCApm.woff",
+    "src": "resources/assets/icons/font-awesome/webfonts/fa-solid-900.woff"
+  },
+  "resources/assets/icons/font-awesome/webfonts/fa-solid-900.woff2": {
+    "file": "assets/fa-solid-900-BUswJgRo.woff2",
+    "src": "resources/assets/icons/font-awesome/webfonts/fa-solid-900.woff2"
+  },
+  "resources/assets/icons/line-awesome/fonts/la-brands-400-1.eot": {
+    "file": "assets/la-brands-400-LN4CMlGg.eot",
+    "src": "resources/assets/icons/line-awesome/fonts/la-brands-400.eot"
+  },
+  "resources/assets/icons/line-awesome/fonts/la-brands-400.eot": {
+    "file": "assets/la-brands-400-LN4CMlGg.eot",
+    "src": "resources/assets/icons/line-awesome/fonts/la-brands-400.eot"
+  },
+  "resources/assets/icons/line-awesome/fonts/la-brands-400.svg": {
+    "file": "assets/la-brands-400-wsUI3UJ9.svg",
+    "src": "resources/assets/icons/line-awesome/fonts/la-brands-400.svg"
+  },
+  "resources/assets/icons/line-awesome/fonts/la-brands-400.ttf": {
+    "file": "assets/la-brands-400-gDglUfU7.ttf",
+    "src": "resources/assets/icons/line-awesome/fonts/la-brands-400.ttf"
+  },
+  "resources/assets/icons/line-awesome/fonts/la-brands-400.woff": {
+    "file": "assets/la-brands-400-D0lxOIwB.woff",
+    "src": "resources/assets/icons/line-awesome/fonts/la-brands-400.woff"
+  },
+  "resources/assets/icons/line-awesome/fonts/la-brands-400.woff2": {
+    "file": "assets/la-brands-400-Cq-R4OEF.woff2",
+    "src": "resources/assets/icons/line-awesome/fonts/la-brands-400.woff2"
+  },
+  "resources/assets/icons/line-awesome/fonts/la-regular-400-1.eot": {
+    "file": "assets/la-regular-400-Cx6vm3uW.eot",
+    "src": "resources/assets/icons/line-awesome/fonts/la-regular-400-1.eot"
+  },
+  "resources/assets/icons/line-awesome/fonts/la-regular-400.eot": {
+    "file": "assets/la-regular-400-Cx6vm3uW.eot",
+    "src": "resources/assets/icons/line-awesome/fonts/la-regular-400-1.eot"
+  },
+  "resources/assets/icons/line-awesome/fonts/la-regular-400.svg": {
+    "file": "assets/la-regular-400-BmVb34ql.svg",
+    "src": "resources/assets/icons/line-awesome/fonts/la-regular-400.svg"
+  },
+  "resources/assets/icons/line-awesome/fonts/la-regular-400.ttf": {
+    "file": "assets/la-regular-400-CmnW_RTo.ttf",
+    "src": "resources/assets/icons/line-awesome/fonts/la-regular-400.ttf"
+  },
+  "resources/assets/icons/line-awesome/fonts/la-regular-400.woff": {
+    "file": "assets/la-regular-400-ehe5HgcS.woff",
+    "src": "resources/assets/icons/line-awesome/fonts/la-regular-400.woff"
+  },
+  "resources/assets/icons/line-awesome/fonts/la-regular-400.woff2": {
+    "file": "assets/la-regular-400-DuFMN_sw.woff2",
+    "src": "resources/assets/icons/line-awesome/fonts/la-regular-400.woff2"
+  },
+  "resources/assets/icons/line-awesome/fonts/la-solid-900-1.eot": {
+    "file": "assets/la-solid-900-DkmX4G2x.eot",
+    "src": "resources/assets/icons/line-awesome/fonts/la-solid-900.eot"
+  },
+  "resources/assets/icons/line-awesome/fonts/la-solid-900.eot": {
+    "file": "assets/la-solid-900-DkmX4G2x.eot",
+    "src": "resources/assets/icons/line-awesome/fonts/la-solid-900.eot"
+  },
+  "resources/assets/icons/line-awesome/fonts/la-solid-900.svg": {
+    "file": "assets/la-solid-900-dtlPMWb8.svg",
+    "src": "resources/assets/icons/line-awesome/fonts/la-solid-900.svg"
+  },
+  "resources/assets/icons/line-awesome/fonts/la-solid-900.ttf": {
+    "file": "assets/la-solid-900-BUOWlSBQ.ttf",
+    "src": "resources/assets/icons/line-awesome/fonts/la-solid-900.ttf"
+  },
+  "resources/assets/icons/line-awesome/fonts/la-solid-900.woff": {
+    "file": "assets/la-solid-900-CR_Kd-su.woff",
+    "src": "resources/assets/icons/line-awesome/fonts/la-solid-900.woff"
+  },
+  "resources/assets/icons/line-awesome/fonts/la-solid-900.woff2": {
+    "file": "assets/la-solid-900-TjMEgv3Q.woff2",
+    "src": "resources/assets/icons/line-awesome/fonts/la-solid-900.woff2"
+  },
+  "resources/assets/icons/themify/fonts/themify-1.eot": {
+    "file": "assets/themify-BifPJsew.eot",
+    "src": "resources/assets/icons/themify/fonts/themify-1.eot"
+  },
+  "resources/assets/icons/themify/fonts/themify.eot": {
+    "file": "assets/themify-BifPJsew.eot",
+    "src": "resources/assets/icons/themify/fonts/themify-1.eot"
+  },
+  "resources/assets/icons/themify/fonts/themify.svg": {
+    "file": "assets/themify-DqOiMLGc.svg",
+    "src": "resources/assets/icons/themify/fonts/themify.svg"
+  },
+  "resources/assets/icons/themify/fonts/themify.ttf": {
+    "file": "assets/themify-DuU3rJAt.ttf",
+    "src": "resources/assets/icons/themify/fonts/themify.ttf"
+  },
+  "resources/assets/icons/themify/fonts/themify.woff": {
+    "file": "assets/themify-BgsFA67P.woff",
+    "src": "resources/assets/icons/themify/fonts/themify.woff"
+  },
+  "resources/assets/js/custom.js": {
+    "file": "assets/custom-C_PzOVi6.js",
+    "name": "custom",
+    "src": "resources/assets/js/custom.js",
+    "isEntry": true
+  },
+  "resources/assets/js/dz.carousel.js": {
+    "file": "assets/dz.carousel-FD4AhgR7.js",
+    "name": "dz.carousel",
+    "src": "resources/assets/js/dz.carousel.js",
+    "isEntry": true
+  },
+  "resources/assets/js/jquery.min.js": {
+    "file": "assets/jquery.min-DkVfdLCE.js",
+    "name": "jquery.min",
+    "src": "resources/assets/js/jquery.min.js",
+    "isEntry": true
+  },
+  "resources/assets/js/projects.js": {
+    "file": "assets/projects-DON2-p_T.js",
+    "name": "projects",
+    "src": "resources/assets/js/projects.js",
+    "isEntry": true
+  },
+  "resources/assets/js/services.js": {
+    "file": "assets/services-U4Sf0Er9.js",
+    "name": "services",
+    "src": "resources/assets/js/services.js",
+    "isEntry": true
+  },
+  "resources/assets/vendor/animate/animate.css": {
+    "file": "assets/animate-DYWjK4fl.css",
+    "src": "resources/assets/vendor/animate/animate.css",
+    "isEntry": true
+  },
+  "resources/assets/vendor/bootstrap-select/bootstrap-select.min.css": {
+    "file": "assets/bootstrap-select-CQUykPXt.css",
+    "src": "resources/assets/vendor/bootstrap-select/bootstrap-select.min.css",
+    "isEntry": true
+  },
+  "resources/assets/vendor/bootstrap-select/bootstrap-select.min.js": {
+    "file": "assets/bootstrap-select.min-Bkn5LXLG.js",
+    "name": "bootstrap-select.min",
+    "src": "resources/assets/vendor/bootstrap-select/bootstrap-select.min.js",
+    "isEntry": true
+  },
+  "resources/assets/vendor/bootstrap/js/bootstrap.bundle.min.js": {
+    "file": "assets/bootstrap.bundle.min-MHTaG6bE.js",
+    "name": "bootstrap.bundle.min",
+    "src": "resources/assets/vendor/bootstrap/js/bootstrap.bundle.min.js",
+    "isEntry": true
+  },
+  "resources/assets/vendor/counter/counterup.min.js": {
+    "file": "assets/counterup.min-DCyC0bnB.js",
+    "name": "counterup.min",
+    "src": "resources/assets/vendor/counter/counterup.min.js",
+    "isEntry": true
+  },
+  "resources/assets/vendor/counter/waypoints-min.js": {
+    "file": "assets/waypoints-min-DKnQT4R1.js",
+    "name": "waypoints-min",
+    "src": "resources/assets/vendor/counter/waypoints-min.js",
+    "isEntry": true
+  },
+  "resources/assets/vendor/lightgallery/css/lightgallery.min.css": {
+    "file": "assets/lightgallery-1UQi49uv.css",
+    "src": "resources/assets/vendor/lightgallery/css/lightgallery.min.css",
+    "isEntry": true
+  },
+  "resources/assets/vendor/lightgallery/fonts/lg-1.eot": {
+    "file": "assets/lg-CECfec_k.eot",
+    "src": "resources/assets/vendor/lightgallery/fonts/lg-1.eot"
+  },
+  "resources/assets/vendor/lightgallery/fonts/lg.eot": {
+    "file": "assets/lg-CECfec_k.eot",
+    "src": "resources/assets/vendor/lightgallery/fonts/lg-1.eot"
+  },
+  "resources/assets/vendor/lightgallery/fonts/lg.svg": {
+    "file": "assets/lg-DdXGUHBl.svg",
+    "src": "resources/assets/vendor/lightgallery/fonts/lg.svg"
+  },
+  "resources/assets/vendor/lightgallery/fonts/lg.ttf": {
+    "file": "assets/lg-7Go_h5KM.ttf",
+    "src": "resources/assets/vendor/lightgallery/fonts/lg.ttf"
+  },
+  "resources/assets/vendor/lightgallery/fonts/lg.woff": {
+    "file": "assets/lg-Bs8vkNy7.woff",
+    "src": "resources/assets/vendor/lightgallery/fonts/lg.woff"
+  },
+  "resources/assets/vendor/lightgallery/img/loading.gif": {
+    "file": "assets/loading-BZOHaeKn.gif",
+    "src": "resources/assets/vendor/lightgallery/img/loading.gif"
+  },
+  "resources/assets/vendor/lightgallery/img/video-play.png": {
+    "file": "assets/video-play-DyOqtwb6.png",
+    "src": "resources/assets/vendor/lightgallery/img/video-play.png"
+  },
+  "resources/assets/vendor/lightgallery/img/vimeo-play.png": {
+    "file": "assets/vimeo-play-fhRnFTqY.png",
+    "src": "resources/assets/vendor/lightgallery/img/vimeo-play.png"
+  },
+  "resources/assets/vendor/lightgallery/img/youtube-play.png": {
+    "file": "assets/youtube-play-wvErIfXO.png",
+    "src": "resources/assets/vendor/lightgallery/img/youtube-play.png"
+  },
+  "resources/assets/vendor/lightgallery/js/lightgallery-all.min.js": {
+    "file": "assets/lightgallery-all.min-CdWJYuqv.js",
+    "name": "lightgallery-all.min",
+    "src": "resources/assets/vendor/lightgallery/js/lightgallery-all.min.js",
+    "isEntry": true
+  },
+  "resources/assets/vendor/magnific-popup/magnific-popup.js": {
+    "file": "assets/magnific-popup-Bcz67zHe.js",
+    "name": "magnific-popup",
+    "src": "resources/assets/vendor/magnific-popup/magnific-popup.js",
+    "isEntry": true
+  },
+  "resources/assets/vendor/magnific-popup/magnific-popup.min.css": {
+    "file": "assets/magnific-popup-CjpfRjHu.css",
+    "src": "resources/assets/vendor/magnific-popup/magnific-popup.min.css",
+    "isEntry": true
+  },
+  "resources/assets/vendor/masonry/isotope.pkgd.min.js": {
+    "file": "assets/isotope.pkgd.min-CnOvNssl.js",
+    "name": "isotope.pkgd.min",
+    "src": "resources/assets/vendor/masonry/isotope.pkgd.min.js",
+    "isEntry": true
+  },
+  "resources/assets/vendor/masonry/masonry-4.2.2.js": {
+    "file": "assets/masonry-4.2.2-Cmd5_ZIH.js",
+    "name": "masonry-4.2.2",
+    "src": "resources/assets/vendor/masonry/masonry-4.2.2.js",
+    "isEntry": true
+  },
+  "resources/assets/vendor/owl-carousel/owl.carousel.css": {
+    "file": "assets/owl-cmiQqSM1.css",
+    "src": "resources/assets/vendor/owl-carousel/owl.carousel.css",
+    "isEntry": true
+  },
+  "resources/assets/vendor/owl-carousel/owl.carousel.js": {
+    "file": "assets/owl.carousel-eGy2AAY4.js",
+    "name": "owl.carousel",
+    "src": "resources/assets/vendor/owl-carousel/owl.carousel.js",
+    "isEntry": true
+  },
+  "resources/assets/vendor/rangeslider/rangeslider.css": {
+    "file": "assets/rangeslider-gTcNWPDu.css",
+    "src": "resources/assets/vendor/rangeslider/rangeslider.css",
+    "isEntry": true
+  },
+  "resources/assets/vendor/rangeslider/rangeslider.js": {
+    "file": "assets/rangeslider-BiLDhTvT.js",
+    "name": "rangeslider",
+    "src": "resources/assets/vendor/rangeslider/rangeslider.js",
+    "isEntry": true
+  },
+  "resources/assets/vendor/swiper/css/swiper.min.css": {
+    "file": "assets/swiper-2fLuaLrO.css",
+    "src": "resources/assets/vendor/swiper/css/swiper.min.css",
+    "isEntry": true
+  },
+  "resources/assets/vendor/swiper/js/swiper.min.js": {
+    "file": "assets/swiper.min-z2hO8j7X.js",
+    "name": "swiper.min",
+    "src": "resources/assets/vendor/swiper/js/swiper.min.js",
+    "isEntry": true
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-l0sNRNKZ.js",
+    "name": "app",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-C3H70IAy.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  },
+  "storage/app/public/images/services/behavioralToolkit.jpeg": {
+    "file": "assets/behavioralToolkit-YYPNvfvH.jpeg",
+    "src": "storage/app/public/images/services/behavioralToolkit.jpeg"
+  },
+  "storage/app/public/images/services/cloudDevelopment.jpeg": {
+    "file": "assets/cloudDevelopment-6SAssRkd.jpeg",
+    "src": "storage/app/public/images/services/cloudDevelopment.jpeg"
+  },
+  "storage/app/public/images/services/dbModélisation.jpeg": {
+    "file": "assets/dbModélisation-Baj1COo1.jpeg",
+    "src": "storage/app/public/images/services/dbModélisation.jpeg"
+  },
+  "storage/app/public/images/services/deepLanguage.jpeg": {
+    "file": "assets/deepLanguage-D0R9ddWP.jpeg",
+    "src": "storage/app/public/images/services/deepLanguage.jpeg"
+  },
+  "storage/app/public/images/services/deepVision.jpeg": {
+    "file": "assets/deepVision-D51pKudX.jpeg",
+    "src": "storage/app/public/images/services/deepVision.jpeg"
+  },
+  "storage/app/public/images/services/mobileDevelopement.jpeg": {
+    "file": "assets/mobileDevelopement-tEVHpfm0.jpeg",
+    "src": "storage/app/public/images/services/mobileDevelopement.jpeg"
+  },
+  "storage/app/public/images/services/optimization.avif": {
+    "file": "assets/optimization--ecvwndL.avif",
+    "src": "storage/app/public/images/services/optimization.avif"
+  },
+  "storage/app/public/images/services/softwareDevelopment.jpeg": {
+    "file": "assets/softwareDevelopment-kCQ3WzTe.jpeg",
+    "src": "storage/app/public/images/services/softwareDevelopment.jpeg"
+  }
+}
