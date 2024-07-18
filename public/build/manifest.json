@@ -116,11 +116,11 @@
   },
   "resources/assets/icons/flaticon/Flaticon-1.eot": {
     "file": "assets/Flaticon-CH58XtPd.eot",
-    "src": "resources/assets/icons/flaticon/Flaticon.eot"
+    "src": "resources/assets/icons/flaticon/Flaticon-1.eot"
   },
   "resources/assets/icons/flaticon/Flaticon.eot": {
     "file": "assets/Flaticon-CH58XtPd.eot",
-    "src": "resources/assets/icons/flaticon/Flaticon.eot"
+    "src": "resources/assets/icons/flaticon/Flaticon-1.eot"
   },
   "resources/assets/icons/flaticon/Flaticon.svg": {
     "file": "assets/Flaticon-CUOnin4p.svg",
@@ -140,11 +140,11 @@
   },
   "resources/assets/icons/font-awesome/webfonts/fa-brands-400-1.eot": {
     "file": "assets/fa-brands-400-DnkPfk3o.eot",
-    "src": "resources/assets/icons/font-awesome/webfonts/fa-brands-400.eot"
+    "src": "resources/assets/icons/font-awesome/webfonts/fa-brands-400-1.eot"
   },
   "resources/assets/icons/font-awesome/webfonts/fa-brands-400.eot": {
     "file": "assets/fa-brands-400-DnkPfk3o.eot",
-    "src": "resources/assets/icons/font-awesome/webfonts/fa-brands-400.eot"
+    "src": "resources/assets/icons/font-awesome/webfonts/fa-brands-400-1.eot"
   },
   "resources/assets/icons/font-awesome/webfonts/fa-brands-400.svg": {
     "file": "assets/fa-brands-400-cH1MgKbP.svg",
@@ -164,11 +164,11 @@
   },
   "resources/assets/icons/font-awesome/webfonts/fa-regular-400-1.eot": {
     "file": "assets/fa-regular-400-BhTwtT8w.eot",
-    "src": "resources/assets/icons/font-awesome/webfonts/fa-regular-400.eot"
+    "src": "resources/assets/icons/font-awesome/webfonts/fa-regular-400-1.eot"
   },
   "resources/assets/icons/font-awesome/webfonts/fa-regular-400.eot": {
     "file": "assets/fa-regular-400-BhTwtT8w.eot",
-    "src": "resources/assets/icons/font-awesome/webfonts/fa-regular-400.eot"
+    "src": "resources/assets/icons/font-awesome/webfonts/fa-regular-400-1.eot"
   },
   "resources/assets/icons/font-awesome/webfonts/fa-regular-400.svg": {
     "file": "assets/fa-regular-400-gwj8Pxq-.svg",
@@ -188,11 +188,11 @@
   },
   "resources/assets/icons/font-awesome/webfonts/fa-solid-900-1.eot": {
     "file": "assets/fa-solid-900-B6Axprfb.eot",
-    "src": "resources/assets/icons/font-awesome/webfonts/fa-solid-900.eot"
+    "src": "resources/assets/icons/font-awesome/webfonts/fa-solid-900-1.eot"
   },
   "resources/assets/icons/font-awesome/webfonts/fa-solid-900.eot": {
     "file": "assets/fa-solid-900-B6Axprfb.eot",
-    "src": "resources/assets/icons/font-awesome/webfonts/fa-solid-900.eot"
+    "src": "resources/assets/icons/font-awesome/webfonts/fa-solid-900-1.eot"
   },
   "resources/assets/icons/font-awesome/webfonts/fa-solid-900.svg": {
     "file": "assets/fa-solid-900-B4ZZ7kfP.svg",
@@ -236,11 +236,11 @@
   },
   "resources/assets/icons/line-awesome/fonts/la-regular-400-1.eot": {
     "file": "assets/la-regular-400-Cx6vm3uW.eot",
-    "src": "resources/assets/icons/line-awesome/fonts/la-regular-400.eot"
+    "src": "resources/assets/icons/line-awesome/fonts/la-regular-400-1.eot"
   },
   "resources/assets/icons/line-awesome/fonts/la-regular-400.eot": {
     "file": "assets/la-regular-400-Cx6vm3uW.eot",
-    "src": "resources/assets/icons/line-awesome/fonts/la-regular-400.eot"
+    "src": "resources/assets/icons/line-awesome/fonts/la-regular-400-1.eot"
   },
   "resources/assets/icons/line-awesome/fonts/la-regular-400.svg": {
     "file": "assets/la-regular-400-BmVb34ql.svg",
@@ -260,11 +260,11 @@
   },
   "resources/assets/icons/line-awesome/fonts/la-solid-900-1.eot": {
     "file": "assets/la-solid-900-DkmX4G2x.eot",
-    "src": "resources/assets/icons/line-awesome/fonts/la-solid-900-1.eot"
+    "src": "resources/assets/icons/line-awesome/fonts/la-solid-900.eot"
   },
   "resources/assets/icons/line-awesome/fonts/la-solid-900.eot": {
     "file": "assets/la-solid-900-DkmX4G2x.eot",
-    "src": "resources/assets/icons/line-awesome/fonts/la-solid-900-1.eot"
+    "src": "resources/assets/icons/line-awesome/fonts/la-solid-900.eot"
   },
   "resources/assets/icons/line-awesome/fonts/la-solid-900.svg": {
     "file": "assets/la-solid-900-dtlPMWb8.svg",
